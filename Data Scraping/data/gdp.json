@@ -1,0 +1,1964 @@
+[
+    {
+        "rank": 1,
+        "country": "United States",
+        "tahun": 2024,
+        "gdp_value": 29184890000000,
+        "gdp_growth_pct": 2.8,
+        "gdp_per_capita": 85810,
+        "share_of_world_gdp_pct": 26.23
+    },
+    {
+        "rank": 2,
+        "country": "China",
+        "tahun": 2024,
+        "gdp_value": 18743803170827,
+        "gdp_growth_pct": 4.98,
+        "gdp_per_capita": 13303,
+        "share_of_world_gdp_pct": 16.85
+    },
+    {
+        "rank": 3,
+        "country": "Germany",
+        "tahun": 2024,
+        "gdp_value": 4659929336891,
+        "gdp_growth_pct": -0.24,
+        "gdp_per_capita": 55800,
+        "share_of_world_gdp_pct": 4.19
+    },
+    {
+        "rank": 4,
+        "country": "Japan",
+        "tahun": 2024,
+        "gdp_value": 4026210821147,
+        "gdp_growth_pct": 0.08,
+        "gdp_per_capita": 32476,
+        "share_of_world_gdp_pct": 3.62
+    },
+    {
+        "rank": 5,
+        "country": "India",
+        "tahun": 2024,
+        "gdp_value": 3912686168582,
+        "gdp_growth_pct": 6.48,
+        "gdp_per_capita": 2697,
+        "share_of_world_gdp_pct": 3.52
+    },
+    {
+        "rank": 6,
+        "country": "United Kingdom",
+        "tahun": 2024,
+        "gdp_value": 3643834188783,
+        "gdp_growth_pct": 1.1,
+        "gdp_per_capita": 52637,
+        "share_of_world_gdp_pct": 3.28
+    },
+    {
+        "rank": 7,
+        "country": "France",
+        "tahun": 2024,
+        "gdp_value": 3162079073496,
+        "gdp_growth_pct": 1.17,
+        "gdp_per_capita": 46150,
+        "share_of_world_gdp_pct": 2.84
+    },
+    {
+        "rank": 8,
+        "country": "Italy",
+        "tahun": 2024,
+        "gdp_value": 2372774547793,
+        "gdp_growth_pct": 0.73,
+        "gdp_per_capita": 40226,
+        "share_of_world_gdp_pct": 2.13
+    },
+    {
+        "rank": 9,
+        "country": "Canada",
+        "tahun": 2024,
+        "gdp_value": 2241253230970,
+        "gdp_growth_pct": 1.53,
+        "gdp_per_capita": 54283,
+        "share_of_world_gdp_pct": 2.01
+    },
+    {
+        "rank": 10,
+        "country": "Brazil",
+        "tahun": 2024,
+        "gdp_value": 2179412080829,
+        "gdp_growth_pct": 3.4,
+        "gdp_per_capita": 10280,
+        "share_of_world_gdp_pct": 1.96
+    },
+    {
+        "rank": 11,
+        "country": "Russia",
+        "tahun": 2024,
+        "gdp_value": 2173835806672,
+        "gdp_growth_pct": 4.34,
+        "gdp_per_capita": 14889,
+        "share_of_world_gdp_pct": 1.95
+    },
+    {
+        "rank": 12,
+        "country": "South Korea",
+        "tahun": 2024,
+        "gdp_value": 1875388000000,
+        "gdp_growth_pct": 2.0,
+        "gdp_per_capita": 36239,
+        "share_of_world_gdp_pct": 1.68
+    },
+    {
+        "rank": 13,
+        "country": "Mexico",
+        "tahun": 2024,
+        "gdp_value": 1852722885258,
+        "gdp_growth_pct": 1.45,
+        "gdp_per_capita": 14158,
+        "share_of_world_gdp_pct": 1.67
+    },
+    {
+        "rank": 14,
+        "country": "Australia",
+        "tahun": 2024,
+        "gdp_value": 1752193307380,
+        "gdp_growth_pct": 1.43,
+        "gdp_per_capita": 64407,
+        "share_of_world_gdp_pct": 1.57
+    },
+    {
+        "rank": 15,
+        "country": "Spain",
+        "tahun": 2024,
+        "gdp_value": 1722745978335,
+        "gdp_growth_pct": 3.15,
+        "gdp_per_capita": 35297,
+        "share_of_world_gdp_pct": 1.55
+    },
+    {
+        "rank": 16,
+        "country": "Indonesia",
+        "tahun": 2024,
+        "gdp_value": 1396300098191,
+        "gdp_growth_pct": 5.03,
+        "gdp_per_capita": 4925,
+        "share_of_world_gdp_pct": 1.26
+    },
+    {
+        "rank": 17,
+        "country": "Turkey",
+        "tahun": 2024,
+        "gdp_value": 1323254808059,
+        "gdp_growth_pct": 3.18,
+        "gdp_per_capita": 15473,
+        "share_of_world_gdp_pct": 1.19
+    },
+    {
+        "rank": 18,
+        "country": "Saudi Arabia",
+        "tahun": 2024,
+        "gdp_value": 1237529866667,
+        "gdp_growth_pct": 1.81,
+        "gdp_per_capita": 35057,
+        "share_of_world_gdp_pct": 1.11
+    },
+    {
+        "rank": 19,
+        "country": "Netherlands",
+        "tahun": 2024,
+        "gdp_value": 1227543925316,
+        "gdp_growth_pct": 0.98,
+        "gdp_per_capita": 68219,
+        "share_of_world_gdp_pct": 1.1
+    },
+    {
+        "rank": 20,
+        "country": "Switzerland",
+        "tahun": 2024,
+        "gdp_value": 936564198049,
+        "gdp_growth_pct": 1.3,
+        "gdp_per_capita": 103670,
+        "share_of_world_gdp_pct": 0.84
+    },
+    {
+        "rank": 21,
+        "country": "Poland",
+        "tahun": 2024,
+        "gdp_value": 914696430325,
+        "gdp_growth_pct": 2.92,
+        "gdp_per_capita": 25023,
+        "share_of_world_gdp_pct": 0.82
+    },
+    {
+        "rank": 22,
+        "country": "Taiwan",
+        "tahun": 2024,
+        "gdp_value": 801495000000,
+        "gdp_growth_pct": 5.27,
+        "gdp_per_capita": 34252,
+        "share_of_world_gdp_pct": 0.72
+    },
+    {
+        "rank": 23,
+        "country": "Belgium",
+        "tahun": 2024,
+        "gdp_value": 664564181487,
+        "gdp_growth_pct": 1.02,
+        "gdp_per_capita": 55955,
+        "share_of_world_gdp_pct": 0.6
+    },
+    {
+        "rank": 24,
+        "country": "Argentina",
+        "tahun": 2024,
+        "gdp_value": 633266692534,
+        "gdp_growth_pct": -1.72,
+        "gdp_per_capita": 13858,
+        "share_of_world_gdp_pct": 0.57
+    },
+    {
+        "rank": 25,
+        "country": "Sweden",
+        "tahun": 2024,
+        "gdp_value": 610117791237,
+        "gdp_growth_pct": 0.97,
+        "gdp_per_capita": 57723,
+        "share_of_world_gdp_pct": 0.55
+    },
+    {
+        "rank": 26,
+        "country": "Ireland",
+        "tahun": 2024,
+        "gdp_value": 577389475010,
+        "gdp_growth_pct": 1.22,
+        "gdp_per_capita": 107316,
+        "share_of_world_gdp_pct": 0.52
+    },
+    {
+        "rank": 27,
+        "country": "Singapore",
+        "tahun": 2024,
+        "gdp_value": 547386645892,
+        "gdp_growth_pct": 4.39,
+        "gdp_per_capita": 90674,
+        "share_of_world_gdp_pct": 0.49
+    },
+    {
+        "rank": 28,
+        "country": "Israel",
+        "tahun": 2024,
+        "gdp_value": 540379921262,
+        "gdp_growth_pct": 0.87,
+        "gdp_per_capita": 54177,
+        "share_of_world_gdp_pct": 0.49
+    },
+    {
+        "rank": 29,
+        "country": "United Arab Emirates",
+        "tahun": 2024,
+        "gdp_value": 537078829135,
+        "gdp_growth_pct": 3.76,
+        "gdp_per_capita": 49378,
+        "share_of_world_gdp_pct": 0.48
+    },
+    {
+        "rank": 30,
+        "country": "Thailand",
+        "tahun": 2024,
+        "gdp_value": 526411265428,
+        "gdp_growth_pct": 2.53,
+        "gdp_per_capita": 7345,
+        "share_of_world_gdp_pct": 0.47
+    },
+    {
+        "rank": 31,
+        "country": "Austria",
+        "tahun": 2024,
+        "gdp_value": 521642466922,
+        "gdp_growth_pct": -1.17,
+        "gdp_per_capita": 56833,
+        "share_of_world_gdp_pct": 0.47
+    },
+    {
+        "rank": 32,
+        "country": "Norway",
+        "tahun": 2024,
+        "gdp_value": 483727398216,
+        "gdp_growth_pct": 2.1,
+        "gdp_per_capita": 86810,
+        "share_of_world_gdp_pct": 0.43
+    },
+    {
+        "rank": 33,
+        "country": "Vietnam",
+        "tahun": 2024,
+        "gdp_value": 476388230307,
+        "gdp_growth_pct": 7.09,
+        "gdp_per_capita": 4717,
+        "share_of_world_gdp_pct": 0.43
+    },
+    {
+        "rank": 34,
+        "country": "Philippines",
+        "tahun": 2024,
+        "gdp_value": 461617509782,
+        "gdp_growth_pct": 5.69,
+        "gdp_per_capita": 3985,
+        "share_of_world_gdp_pct": 0.41
+    },
+    {
+        "rank": 35,
+        "country": "Bangladesh",
+        "tahun": 2024,
+        "gdp_value": 450119424622,
+        "gdp_growth_pct": 4.22,
+        "gdp_per_capita": 2593,
+        "share_of_world_gdp_pct": 0.4
+    },
+    {
+        "rank": 36,
+        "country": "Iran",
+        "tahun": 2024,
+        "gdp_value": 436906331672,
+        "gdp_growth_pct": 3.04,
+        "gdp_per_capita": 4771,
+        "share_of_world_gdp_pct": 0.39
+    },
+    {
+        "rank": 37,
+        "country": "Denmark",
+        "tahun": 2024,
+        "gdp_value": 429457372072,
+        "gdp_growth_pct": 3.68,
+        "gdp_per_capita": 71852,
+        "share_of_world_gdp_pct": 0.39
+    },
+    {
+        "rank": 38,
+        "country": "Malaysia",
+        "tahun": 2024,
+        "gdp_value": 421972102254,
+        "gdp_growth_pct": 5.11,
+        "gdp_per_capita": 11867,
+        "share_of_world_gdp_pct": 0.38
+    },
+    {
+        "rank": 39,
+        "country": "Colombia",
+        "tahun": 2024,
+        "gdp_value": 418542042920,
+        "gdp_growth_pct": 1.74,
+        "gdp_per_capita": 7914,
+        "share_of_world_gdp_pct": 0.38
+    },
+    {
+        "rank": 40,
+        "country": "Hong Kong",
+        "tahun": 2024,
+        "gdp_value": 407106738445,
+        "gdp_growth_pct": 2.54,
+        "gdp_per_capita": 54107,
+        "share_of_world_gdp_pct": 0.37
+    },
+    {
+        "rank": 41,
+        "country": "South Africa",
+        "tahun": 2024,
+        "gdp_value": 400260724226,
+        "gdp_growth_pct": 0.58,
+        "gdp_per_capita": 6253,
+        "share_of_world_gdp_pct": 0.36
+    },
+    {
+        "rank": 42,
+        "country": "Egypt",
+        "tahun": 2024,
+        "gdp_value": 389059911004,
+        "gdp_growth_pct": 2.4,
+        "gdp_per_capita": 3338,
+        "share_of_world_gdp_pct": 0.35
+    },
+    {
+        "rank": 43,
+        "country": "Romania",
+        "tahun": 2024,
+        "gdp_value": 382767571329,
+        "gdp_growth_pct": 0.81,
+        "gdp_per_capita": 20072,
+        "share_of_world_gdp_pct": 0.34
+    },
+    {
+        "rank": 44,
+        "country": "Pakistan",
+        "tahun": 2024,
+        "gdp_value": 373071855732,
+        "gdp_growth_pct": 3.23,
+        "gdp_per_capita": 1485,
+        "share_of_world_gdp_pct": 0.34
+    },
+    {
+        "rank": 45,
+        "country": "Czech Republic (Czechia)",
+        "tahun": 2024,
+        "gdp_value": 345036675975,
+        "gdp_growth_pct": 1.12,
+        "gdp_per_capita": 31707,
+        "share_of_world_gdp_pct": 0.31
+    },
+    {
+        "rank": 46,
+        "country": "Chile",
+        "tahun": 2024,
+        "gdp_value": 330267137372,
+        "gdp_growth_pct": 2.64,
+        "gdp_per_capita": 16710,
+        "share_of_world_gdp_pct": 0.3
+    },
+    {
+        "rank": 47,
+        "country": "Portugal",
+        "tahun": 2024,
+        "gdp_value": 308683317393,
+        "gdp_growth_pct": 1.93,
+        "gdp_per_capita": 28844,
+        "share_of_world_gdp_pct": 0.28
+    },
+    {
+        "rank": 48,
+        "country": "Finland",
+        "tahun": 2024,
+        "gdp_value": 299835625551,
+        "gdp_growth_pct": -0.15,
+        "gdp_per_capita": 53189,
+        "share_of_world_gdp_pct": 0.27
+    },
+    {
+        "rank": 49,
+        "country": "Peru",
+        "tahun": 2024,
+        "gdp_value": 289221969060,
+        "gdp_growth_pct": 3.3,
+        "gdp_per_capita": 8452,
+        "share_of_world_gdp_pct": 0.26
+    },
+    {
+        "rank": 50,
+        "country": "Kazakhstan",
+        "tahun": 2024,
+        "gdp_value": 288406138231,
+        "gdp_growth_pct": 4.8,
+        "gdp_per_capita": 14005,
+        "share_of_world_gdp_pct": 0.26
+    },
+    {
+        "rank": 51,
+        "country": "Iraq",
+        "tahun": 2024,
+        "gdp_value": 279641257615,
+        "gdp_growth_pct": -1.55,
+        "gdp_per_capita": 6074,
+        "share_of_world_gdp_pct": 0.25
+    },
+    {
+        "rank": 52,
+        "country": "Algeria",
+        "tahun": 2024,
+        "gdp_value": 263619794507,
+        "gdp_growth_pct": 3.3,
+        "gdp_per_capita": 5631,
+        "share_of_world_gdp_pct": 0.24
+    },
+    {
+        "rank": 53,
+        "country": "New Zealand",
+        "tahun": 2024,
+        "gdp_value": 260235932559,
+        "gdp_growth_pct": -0.13,
+        "gdp_per_capita": 48747,
+        "share_of_world_gdp_pct": 0.23
+    },
+    {
+        "rank": 54,
+        "country": "Greece",
+        "tahun": 2024,
+        "gdp_value": 257144811302,
+        "gdp_growth_pct": 2.27,
+        "gdp_per_capita": 24752,
+        "share_of_world_gdp_pct": 0.23
+    },
+    {
+        "rank": 55,
+        "country": "Hungary",
+        "tahun": 2024,
+        "gdp_value": 222904723252,
+        "gdp_growth_pct": 0.51,
+        "gdp_per_capita": 23311,
+        "share_of_world_gdp_pct": 0.2
+    },
+    {
+        "rank": 56,
+        "country": "Qatar",
+        "tahun": 2024,
+        "gdp_value": 217982967033,
+        "gdp_growth_pct": 2.77,
+        "gdp_per_capita": 76276,
+        "share_of_world_gdp_pct": 0.2
+    },
+    {
+        "rank": 57,
+        "country": "Cuba",
+        "tahun": 2024,
+        "gdp_value": 201985998168,
+        "gdp_growth_pct": -1.93,
+        "gdp_per_capita": 18329,
+        "share_of_world_gdp_pct": 0.19
+    },
+    {
+        "rank": 58,
+        "country": "Ukraine",
+        "tahun": 2024,
+        "gdp_value": 190741263732,
+        "gdp_growth_pct": 2.91,
+        "gdp_per_capita": 5389,
+        "share_of_world_gdp_pct": 0.17
+    },
+    {
+        "rank": 59,
+        "country": "Nigeria",
+        "tahun": 2024,
+        "gdp_value": 187759703100,
+        "gdp_growth_pct": 3.43,
+        "gdp_per_capita": 807,
+        "share_of_world_gdp_pct": 0.17
+    },
+    {
+        "rank": 60,
+        "country": "Kuwait",
+        "tahun": 2024,
+        "gdp_value": 160227273001,
+        "gdp_growth_pct": -2.56,
+        "gdp_per_capita": 32214,
+        "share_of_world_gdp_pct": 0.14
+    },
+    {
+        "rank": 61,
+        "country": "Morocco",
+        "tahun": 2024,
+        "gdp_value": 154430996473,
+        "gdp_growth_pct": 3.24,
+        "gdp_per_capita": 3993,
+        "share_of_world_gdp_pct": 0.14
+    },
+    {
+        "rank": 62,
+        "country": "Ethiopia",
+        "tahun": 2024,
+        "gdp_value": 142073000000,
+        "gdp_growth_pct": 8.05,
+        "gdp_per_capita": 1311,
+        "share_of_world_gdp_pct": 0.13
+    },
+    {
+        "rank": 63,
+        "country": "Slovakia",
+        "tahun": 2024,
+        "gdp_value": 141775733420,
+        "gdp_growth_pct": 2.06,
+        "gdp_per_capita": 26148,
+        "share_of_world_gdp_pct": 0.13
+    },
+    {
+        "rank": 64,
+        "country": "Puerto Rico",
+        "tahun": 2024,
+        "gdp_value": 125841500000,
+        "gdp_growth_pct": 3.23,
+        "gdp_per_capita": 39285,
+        "share_of_world_gdp_pct": 0.11
+    },
+    {
+        "rank": 65,
+        "country": "Ecuador",
+        "tahun": 2024,
+        "gdp_value": 124676074700,
+        "gdp_growth_pct": -2.0,
+        "gdp_per_capita": 6875,
+        "share_of_world_gdp_pct": 0.11
+    },
+    {
+        "rank": 66,
+        "country": "Kenya",
+        "tahun": 2024,
+        "gdp_value": 124498691699,
+        "gdp_growth_pct": 4.5,
+        "gdp_per_capita": 2206,
+        "share_of_world_gdp_pct": 0.11
+    },
+    {
+        "rank": 67,
+        "country": "Dominican Republic",
+        "tahun": 2024,
+        "gdp_value": 124282245639,
+        "gdp_growth_pct": 4.95,
+        "gdp_per_capita": 10876,
+        "share_of_world_gdp_pct": 0.11
+    },
+    {
+        "rank": 68,
+        "country": "Venezuela",
+        "tahun": 2024,
+        "gdp_value": 120566000000,
+        "gdp_growth_pct": 5.3,
+        "gdp_per_capita": 4539,
+        "share_of_world_gdp_pct": 0.11
+    },
+    {
+        "rank": 69,
+        "country": "Uzbekistan",
+        "tahun": 2024,
+        "gdp_value": 114965293467,
+        "gdp_growth_pct": 6.5,
+        "gdp_per_capita": 3162,
+        "share_of_world_gdp_pct": 0.1
+    },
+    {
+        "rank": 70,
+        "country": "Guatemala",
+        "tahun": 2024,
+        "gdp_value": 113199586004,
+        "gdp_growth_pct": 3.65,
+        "gdp_per_capita": 6150,
+        "share_of_world_gdp_pct": 0.1
+    },
+    {
+        "rank": 71,
+        "country": "Bulgaria",
+        "tahun": 2024,
+        "gdp_value": 112211952704,
+        "gdp_growth_pct": 2.81,
+        "gdp_per_capita": 17412,
+        "share_of_world_gdp_pct": 0.1
+    },
+    {
+        "rank": 72,
+        "country": "Oman",
+        "tahun": 2024,
+        "gdp_value": 106942782835,
+        "gdp_growth_pct": 1.67,
+        "gdp_per_capita": 20248,
+        "share_of_world_gdp_pct": 0.1
+    },
+    {
+        "rank": 73,
+        "country": "Sri Lanka",
+        "tahun": 2024,
+        "gdp_value": 98963185510,
+        "gdp_growth_pct": 5.01,
+        "gdp_per_capita": 4516,
+        "share_of_world_gdp_pct": 0.09
+    },
+    {
+        "rank": 74,
+        "country": "Costa Rica",
+        "tahun": 2024,
+        "gdp_value": 95350423177,
+        "gdp_growth_pct": 4.32,
+        "gdp_per_capita": 18587,
+        "share_of_world_gdp_pct": 0.09
+    },
+    {
+        "rank": 75,
+        "country": "Luxembourg",
+        "tahun": 2024,
+        "gdp_value": 93197329012,
+        "gdp_growth_pct": 1.03,
+        "gdp_per_capita": 137517,
+        "share_of_world_gdp_pct": 0.08
+    },
+    {
+        "rank": 76,
+        "country": "Croatia",
+        "tahun": 2024,
+        "gdp_value": 92526176109,
+        "gdp_growth_pct": 3.81,
+        "gdp_per_capita": 23931,
+        "share_of_world_gdp_pct": 0.08
+    },
+    {
+        "rank": 77,
+        "country": "Serbia",
+        "tahun": 2024,
+        "gdp_value": 89083506277,
+        "gdp_growth_pct": 3.88,
+        "gdp_per_capita": 13524,
+        "share_of_world_gdp_pct": 0.08
+    },
+    {
+        "rank": 78,
+        "country": "Côte d'Ivoire",
+        "tahun": 2024,
+        "gdp_value": 86538413923,
+        "gdp_growth_pct": 5.95,
+        "gdp_per_capita": 2710,
+        "share_of_world_gdp_pct": 0.08
+    },
+    {
+        "rank": 79,
+        "country": "Panama",
+        "tahun": 2024,
+        "gdp_value": 86260400000,
+        "gdp_growth_pct": 2.86,
+        "gdp_per_capita": 19103,
+        "share_of_world_gdp_pct": 0.08
+    },
+    {
+        "rank": 80,
+        "country": "Lithuania",
+        "tahun": 2024,
+        "gdp_value": 84869215513,
+        "gdp_growth_pct": 2.77,
+        "gdp_per_capita": 29386,
+        "share_of_world_gdp_pct": 0.08
+    },
+    {
+        "rank": 81,
+        "country": "Ghana",
+        "tahun": 2024,
+        "gdp_value": 82825288889,
+        "gdp_growth_pct": 5.68,
+        "gdp_per_capita": 2406,
+        "share_of_world_gdp_pct": 0.07
+    },
+    {
+        "rank": 82,
+        "country": "Uruguay",
+        "tahun": 2024,
+        "gdp_value": 80961511074,
+        "gdp_growth_pct": 3.11,
+        "gdp_per_capita": 23907,
+        "share_of_world_gdp_pct": 0.07
+    },
+    {
+        "rank": 83,
+        "country": "Angola",
+        "tahun": 2024,
+        "gdp_value": 80396942242,
+        "gdp_growth_pct": 4.42,
+        "gdp_per_capita": 2122,
+        "share_of_world_gdp_pct": 0.07
+    },
+    {
+        "rank": 84,
+        "country": "Tanzania",
+        "tahun": 2024,
+        "gdp_value": 78779864877,
+        "gdp_growth_pct": 5.53,
+        "gdp_per_capita": 1186,
+        "share_of_world_gdp_pct": 0.07
+    },
+    {
+        "rank": 85,
+        "country": "Belarus",
+        "tahun": 2024,
+        "gdp_value": 75961865472,
+        "gdp_growth_pct": 4.01,
+        "gdp_per_capita": 8317,
+        "share_of_world_gdp_pct": 0.07
+    },
+    {
+        "rank": 86,
+        "country": "Azerbaijan",
+        "tahun": 2024,
+        "gdp_value": 74315882353,
+        "gdp_growth_pct": 4.07,
+        "gdp_per_capita": 7284,
+        "share_of_world_gdp_pct": 0.07
+    },
+    {
+        "rank": 87,
+        "country": "Myanmar",
+        "tahun": 2024,
+        "gdp_value": 74079772652,
+        "gdp_growth_pct": -0.97,
+        "gdp_per_capita": 1359,
+        "share_of_world_gdp_pct": 0.07
+    },
+    {
+        "rank": 88,
+        "country": "Slovenia",
+        "tahun": 2024,
+        "gdp_value": 72485008929,
+        "gdp_growth_pct": 1.59,
+        "gdp_per_capita": 34089,
+        "share_of_world_gdp_pct": 0.07
+    },
+    {
+        "rank": 89,
+        "country": "DR Congo",
+        "tahun": 2024,
+        "gdp_value": 70749355652,
+        "gdp_growth_pct": 6.68,
+        "gdp_per_capita": 647,
+        "share_of_world_gdp_pct": 0.06
+    },
+    {
+        "rank": 90,
+        "country": "Turkmenistan",
+        "tahun": 2024,
+        "gdp_value": 64239891739,
+        "gdp_growth_pct": 2.26,
+        "gdp_per_capita": 8572,
+        "share_of_world_gdp_pct": 0.06
+    },
+    {
+        "rank": 91,
+        "country": "Uganda",
+        "tahun": 2024,
+        "gdp_value": 53651874314,
+        "gdp_growth_pct": 6.14,
+        "gdp_per_capita": 1073,
+        "share_of_world_gdp_pct": 0.05
+    },
+    {
+        "rank": 92,
+        "country": "Tunisia",
+        "tahun": 2024,
+        "gdp_value": 53409988745,
+        "gdp_growth_pct": 1.35,
+        "gdp_per_capita": 4350,
+        "share_of_world_gdp_pct": 0.05
+    },
+    {
+        "rank": 93,
+        "country": "Jordan",
+        "tahun": 2024,
+        "gdp_value": 53352289577,
+        "gdp_growth_pct": 2.49,
+        "gdp_per_capita": 4618,
+        "share_of_world_gdp_pct": 0.05
+    },
+    {
+        "rank": 94,
+        "country": "Cameroon",
+        "tahun": 2024,
+        "gdp_value": 51326764685,
+        "gdp_growth_pct": 3.67,
+        "gdp_per_capita": 1762,
+        "share_of_world_gdp_pct": 0.05
+    },
+    {
+        "rank": 95,
+        "country": "Macao",
+        "tahun": 2024,
+        "gdp_value": 50183212761,
+        "gdp_growth_pct": 8.81,
+        "gdp_per_capita": 73047,
+        "share_of_world_gdp_pct": 0.05
+    },
+    {
+        "rank": 96,
+        "country": "Sudan",
+        "tahun": 2024,
+        "gdp_value": 49909807030,
+        "gdp_growth_pct": -13.49,
+        "gdp_per_capita": 989,
+        "share_of_world_gdp_pct": 0.04
+    },
+    {
+        "rank": 97,
+        "country": "Bolivia",
+        "tahun": 2024,
+        "gdp_value": 49668296744,
+        "gdp_growth_pct": 1.38,
+        "gdp_per_capita": 4001,
+        "share_of_world_gdp_pct": 0.04
+    },
+    {
+        "rank": 98,
+        "country": "Bahrain",
+        "tahun": 2024,
+        "gdp_value": 47736702128,
+        "gdp_growth_pct": 3.02,
+        "gdp_per_capita": 30048,
+        "share_of_world_gdp_pct": 0.04
+    },
+    {
+        "rank": 99,
+        "country": "Libya",
+        "tahun": 2024,
+        "gdp_value": 46636278902,
+        "gdp_growth_pct": -0.61,
+        "gdp_per_capita": 6318,
+        "share_of_world_gdp_pct": 0.04
+    },
+    {
+        "rank": 100,
+        "country": "Cambodia",
+        "tahun": 2024,
+        "gdp_value": 46352647035,
+        "gdp_growth_pct": 6.02,
+        "gdp_per_capita": 2628,
+        "share_of_world_gdp_pct": 0.04
+    },
+    {
+        "rank": 101,
+        "country": "Paraguay",
+        "tahun": 2024,
+        "gdp_value": 44458118400,
+        "gdp_growth_pct": 4.25,
+        "gdp_per_capita": 6416,
+        "share_of_world_gdp_pct": 0.04
+    },
+    {
+        "rank": 102,
+        "country": "Zimbabwe",
+        "tahun": 2024,
+        "gdp_value": 44187704410,
+        "gdp_growth_pct": 2.03,
+        "gdp_per_capita": 2656,
+        "share_of_world_gdp_pct": 0.04
+    },
+    {
+        "rank": 103,
+        "country": "Latvia",
+        "tahun": 2024,
+        "gdp_value": 43520773851,
+        "gdp_growth_pct": -0.44,
+        "gdp_per_capita": 23368,
+        "share_of_world_gdp_pct": 0.04
+    },
+    {
+        "rank": 104,
+        "country": "Nepal",
+        "tahun": 2024,
+        "gdp_value": 42914268287,
+        "gdp_growth_pct": 3.67,
+        "gdp_per_capita": 1447,
+        "share_of_world_gdp_pct": 0.04
+    },
+    {
+        "rank": 105,
+        "country": "Estonia",
+        "tahun": 2024,
+        "gdp_value": 42764929169,
+        "gdp_growth_pct": -0.26,
+        "gdp_per_capita": 31170,
+        "share_of_world_gdp_pct": 0.04
+    },
+    {
+        "rank": 106,
+        "country": "Honduras",
+        "tahun": 2024,
+        "gdp_value": 37093565854,
+        "gdp_growth_pct": 3.55,
+        "gdp_per_capita": 3426,
+        "share_of_world_gdp_pct": 0.03
+    },
+    {
+        "rank": 107,
+        "country": "Cyprus",
+        "tahun": 2024,
+        "gdp_value": 36333022329,
+        "gdp_growth_pct": 3.45,
+        "gdp_per_capita": 38654,
+        "share_of_world_gdp_pct": 0.03
+    },
+    {
+        "rank": 108,
+        "country": "El Salvador",
+        "tahun": 2024,
+        "gdp_value": 35364960000,
+        "gdp_growth_pct": 2.6,
+        "gdp_per_capita": 5580,
+        "share_of_world_gdp_pct": 0.03
+    },
+    {
+        "rank": 109,
+        "country": "Georgia",
+        "tahun": 2024,
+        "gdp_value": 33776141251,
+        "gdp_growth_pct": 9.43,
+        "gdp_per_capita": 9194,
+        "share_of_world_gdp_pct": 0.03
+    },
+    {
+        "rank": 110,
+        "country": "Iceland",
+        "tahun": 2024,
+        "gdp_value": 33462807983,
+        "gdp_growth_pct": 0.52,
+        "gdp_per_capita": 82704,
+        "share_of_world_gdp_pct": 0.03
+    },
+    {
+        "rank": 111,
+        "country": "Papua New Guinea",
+        "tahun": 2024,
+        "gdp_value": 32538480024,
+        "gdp_growth_pct": 4.09,
+        "gdp_per_capita": 3076,
+        "share_of_world_gdp_pct": 0.03
+    },
+    {
+        "rank": 112,
+        "country": "Senegal",
+        "tahun": 2024,
+        "gdp_value": 32267254425,
+        "gdp_growth_pct": 6.89,
+        "gdp_per_capita": 1744,
+        "share_of_world_gdp_pct": 0.03
+    },
+    {
+        "rank": 113,
+        "country": "Lebanon",
+        "tahun": 2024,
+        "gdp_value": 29339000000,
+        "gdp_growth_pct": -7.5,
+        "gdp_per_capita": 5480,
+        "share_of_world_gdp_pct": 0.03
+    },
+    {
+        "rank": 114,
+        "country": "Bosnia and Herzegovina",
+        "tahun": 2024,
+        "gdp_value": 28343394203,
+        "gdp_growth_pct": 2.48,
+        "gdp_per_capita": 8957,
+        "share_of_world_gdp_pct": 0.03
+    },
+    {
+        "rank": 115,
+        "country": "Albania",
+        "tahun": 2024,
+        "gdp_value": 27177735528,
+        "gdp_growth_pct": 3.96,
+        "gdp_per_capita": 10012,
+        "share_of_world_gdp_pct": 0.02
+    },
+    {
+        "rank": 116,
+        "country": "Mali",
+        "tahun": 2024,
+        "gdp_value": 26588067731,
+        "gdp_growth_pct": 5.0,
+        "gdp_per_capita": 1086,
+        "share_of_world_gdp_pct": 0.02
+    },
+    {
+        "rank": 117,
+        "country": "Trinidad and Tobago",
+        "tahun": 2024,
+        "gdp_value": 26428963758,
+        "gdp_growth_pct": 1.65,
+        "gdp_per_capita": 19315,
+        "share_of_world_gdp_pct": 0.02
+    },
+    {
+        "rank": 118,
+        "country": "Zambia",
+        "tahun": 2024,
+        "gdp_value": 26325775287,
+        "gdp_growth_pct": 4.04,
+        "gdp_per_capita": 1235,
+        "share_of_world_gdp_pct": 0.02
+    },
+    {
+        "rank": 119,
+        "country": "Armenia",
+        "tahun": 2024,
+        "gdp_value": 25786585950,
+        "gdp_growth_pct": 5.9,
+        "gdp_per_capita": 8501,
+        "share_of_world_gdp_pct": 0.02
+    },
+    {
+        "rank": 120,
+        "country": "Guinea",
+        "tahun": 2024,
+        "gdp_value": 25334307879,
+        "gdp_growth_pct": 5.67,
+        "gdp_per_capita": 1717,
+        "share_of_world_gdp_pct": 0.02
+    },
+    {
+        "rank": 121,
+        "country": "Haiti",
+        "tahun": 2024,
+        "gdp_value": 25224154991,
+        "gdp_growth_pct": -4.17,
+        "gdp_per_capita": 2143,
+        "share_of_world_gdp_pct": 0.02
+    },
+    {
+        "rank": 122,
+        "country": "Guyana",
+        "tahun": 2024,
+        "gdp_value": 24835899826,
+        "gdp_growth_pct": 43.37,
+        "gdp_per_capita": 29884,
+        "share_of_world_gdp_pct": 0.02
+    },
+    {
+        "rank": 123,
+        "country": "Malta",
+        "tahun": 2024,
+        "gdp_value": 24322006608,
+        "gdp_growth_pct": 5.97,
+        "gdp_per_capita": 42347,
+        "share_of_world_gdp_pct": 0.02
+    },
+    {
+        "rank": 124,
+        "country": "Mongolia",
+        "tahun": 2024,
+        "gdp_value": 23586055802,
+        "gdp_growth_pct": 4.86,
+        "gdp_per_capita": 6691,
+        "share_of_world_gdp_pct": 0.02
+    },
+    {
+        "rank": 125,
+        "country": "Burkina Faso",
+        "tahun": 2024,
+        "gdp_value": 23250214910,
+        "gdp_growth_pct": 4.99,
+        "gdp_per_capita": 987,
+        "share_of_world_gdp_pct": 0.02
+    },
+    {
+        "rank": 126,
+        "country": "Mozambique",
+        "tahun": 2024,
+        "gdp_value": 22416650343,
+        "gdp_growth_pct": 1.85,
+        "gdp_per_capita": 647,
+        "share_of_world_gdp_pct": 0.02
+    },
+    {
+        "rank": 127,
+        "country": "Benin",
+        "tahun": 2024,
+        "gdp_value": 21482643720,
+        "gdp_growth_pct": 7.45,
+        "gdp_per_capita": 1485,
+        "share_of_world_gdp_pct": 0.02
+    },
+    {
+        "rank": 128,
+        "country": "Gabon",
+        "tahun": 2024,
+        "gdp_value": 20867044936,
+        "gdp_growth_pct": 3.38,
+        "gdp_per_capita": 8219,
+        "share_of_world_gdp_pct": 0.02
+    },
+    {
+        "rank": 129,
+        "country": "Chad",
+        "tahun": 2024,
+        "gdp_value": 20625711665,
+        "gdp_growth_pct": 3.65,
+        "gdp_per_capita": 1016,
+        "share_of_world_gdp_pct": 0.02
+    },
+    {
+        "rank": 130,
+        "country": "Syria",
+        "tahun": 2024,
+        "gdp_value": 19993439950,
+        "gdp_growth_pct": -1.21,
+        "gdp_per_capita": 847,
+        "share_of_world_gdp_pct": 0.02
+    },
+    {
+        "rank": 131,
+        "country": "Jamaica",
+        "tahun": 2024,
+        "gdp_value": 19930288337,
+        "gdp_growth_pct": -0.72,
+        "gdp_per_capita": 7020,
+        "share_of_world_gdp_pct": 0.02
+    },
+    {
+        "rank": 132,
+        "country": "Nicaragua",
+        "tahun": 2024,
+        "gdp_value": 19693982968,
+        "gdp_growth_pct": 3.59,
+        "gdp_per_capita": 2848,
+        "share_of_world_gdp_pct": 0.02
+    },
+    {
+        "rank": 133,
+        "country": "Niger",
+        "tahun": 2024,
+        "gdp_value": 19537639288,
+        "gdp_growth_pct": 8.42,
+        "gdp_per_capita": 723,
+        "share_of_world_gdp_pct": 0.02
+    },
+    {
+        "rank": 134,
+        "country": "Botswana",
+        "tahun": 2024,
+        "gdp_value": 19400774882,
+        "gdp_growth_pct": -2.99,
+        "gdp_per_capita": 7695,
+        "share_of_world_gdp_pct": 0.02
+    },
+    {
+        "rank": 135,
+        "country": "Moldova",
+        "tahun": 2024,
+        "gdp_value": 18200340854,
+        "gdp_growth_pct": 0.1,
+        "gdp_per_capita": 7618,
+        "share_of_world_gdp_pct": 0.02
+    },
+    {
+        "rank": 136,
+        "country": "Afghanistan",
+        "tahun": 2024,
+        "gdp_value": 17817000000,
+        "gdp_growth_pct": 1.87,
+        "gdp_per_capita": 418,
+        "share_of_world_gdp_pct": 0.02
+    },
+    {
+        "rank": 137,
+        "country": "Kyrgyzstan",
+        "tahun": 2024,
+        "gdp_value": 17478259659,
+        "gdp_growth_pct": 9.04,
+        "gdp_per_capita": 2419,
+        "share_of_world_gdp_pct": 0.02
+    },
+    {
+        "rank": 138,
+        "country": "Madagascar",
+        "tahun": 2024,
+        "gdp_value": 17420814801,
+        "gdp_growth_pct": 4.2,
+        "gdp_per_capita": 545,
+        "share_of_world_gdp_pct": 0.02
+    },
+    {
+        "rank": 139,
+        "country": "North Macedonia",
+        "tahun": 2024,
+        "gdp_value": 16685236492,
+        "gdp_growth_pct": 2.76,
+        "gdp_per_capita": 9310,
+        "share_of_world_gdp_pct": 0.01
+    },
+    {
+        "rank": 140,
+        "country": "Laos",
+        "tahun": 2024,
+        "gdp_value": 16502933121,
+        "gdp_growth_pct": 4.26,
+        "gdp_per_capita": 2124,
+        "share_of_world_gdp_pct": 0.01
+    },
+    {
+        "rank": 141,
+        "country": "North Korea",
+        "tahun": 2024,
+        "gdp_value": 16446632290,
+        "gdp_growth_pct": 3.06,
+        "gdp_per_capita": 640,
+        "share_of_world_gdp_pct": 0.02
+    },
+    {
+        "rank": 142,
+        "country": "Bahamas",
+        "tahun": 2024,
+        "gdp_value": 15832800000,
+        "gdp_growth_pct": 3.38,
+        "gdp_per_capita": 39455,
+        "share_of_world_gdp_pct": 0.01
+    },
+    {
+        "rank": 143,
+        "country": "Congo",
+        "tahun": 2024,
+        "gdp_value": 15719985776,
+        "gdp_growth_pct": 2.58,
+        "gdp_per_capita": 2482,
+        "share_of_world_gdp_pct": 0.01
+    },
+    {
+        "rank": 144,
+        "country": "Brunei",
+        "tahun": 2024,
+        "gdp_value": 15463134387,
+        "gdp_growth_pct": 4.2,
+        "gdp_per_capita": 33418,
+        "share_of_world_gdp_pct": 0.01
+    },
+    {
+        "rank": 145,
+        "country": "Mauritius",
+        "tahun": 2024,
+        "gdp_value": 14952555415,
+        "gdp_growth_pct": 4.69,
+        "gdp_per_capita": 11872,
+        "share_of_world_gdp_pct": 0.01
+    },
+    {
+        "rank": 146,
+        "country": "Rwanda",
+        "tahun": 2024,
+        "gdp_value": 14251642231,
+        "gdp_growth_pct": 8.89,
+        "gdp_per_capita": 1000,
+        "share_of_world_gdp_pct": 0.01
+    },
+    {
+        "rank": 147,
+        "country": "Tajikistan",
+        "tahun": 2024,
+        "gdp_value": 14204575549,
+        "gdp_growth_pct": 8.4,
+        "gdp_per_capita": 1341,
+        "share_of_world_gdp_pct": 0.01
+    },
+    {
+        "rank": 148,
+        "country": "State of Palestine",
+        "tahun": 2024,
+        "gdp_value": 13711100000,
+        "gdp_growth_pct": -26.56,
+        "gdp_per_capita": 2592,
+        "share_of_world_gdp_pct": 0.01
+    },
+    {
+        "rank": 149,
+        "country": "Namibia",
+        "tahun": 2024,
+        "gdp_value": 13372354269,
+        "gdp_growth_pct": 3.71,
+        "gdp_per_capita": 4413,
+        "share_of_world_gdp_pct": 0.01
+    },
+    {
+        "rank": 150,
+        "country": "Equatorial Guinea",
+        "tahun": 2024,
+        "gdp_value": 12765777677,
+        "gdp_growth_pct": 0.91,
+        "gdp_per_capita": 6745,
+        "share_of_world_gdp_pct": 0.01
+    },
+    {
+        "rank": 151,
+        "country": "Somalia",
+        "tahun": 2024,
+        "gdp_value": 12108515110,
+        "gdp_growth_pct": 3.97,
+        "gdp_per_capita": 637,
+        "share_of_world_gdp_pct": 0.01
+    },
+    {
+        "rank": 152,
+        "country": "Malawi",
+        "tahun": 2024,
+        "gdp_value": 11008925323,
+        "gdp_growth_pct": 1.83,
+        "gdp_per_capita": 508,
+        "share_of_world_gdp_pct": 0.0099
+    },
+    {
+        "rank": 153,
+        "country": "Mauritania",
+        "tahun": 2024,
+        "gdp_value": 10766731874,
+        "gdp_growth_pct": 5.2,
+        "gdp_per_capita": 2083,
+        "share_of_world_gdp_pct": 0.0097
+    },
+    {
+        "rank": 154,
+        "country": "New Caledonia",
+        "tahun": 2024,
+        "gdp_value": 10139988153,
+        "gdp_growth_pct": -0.41,
+        "gdp_per_capita": 34981,
+        "share_of_world_gdp_pct": 0.0096
+    },
+    {
+        "rank": 155,
+        "country": "Monaco",
+        "tahun": 2024,
+        "gdp_value": 9995350547,
+        "gdp_growth_pct": 5.04,
+        "gdp_per_capita": 256581,
+        "share_of_world_gdp_pct": 0.0093
+    },
+    {
+        "rank": 156,
+        "country": "Togo",
+        "tahun": 2024,
+        "gdp_value": 9925732120,
+        "gdp_growth_pct": 5.3,
+        "gdp_per_capita": 1043,
+        "share_of_world_gdp_pct": 0.0089
+    },
+    {
+        "rank": 157,
+        "country": "Bermuda",
+        "tahun": 2024,
+        "gdp_value": 8980200000,
+        "gdp_growth_pct": 2.11,
+        "gdp_per_capita": 138935,
+        "share_of_world_gdp_pct": 0.0081
+    },
+    {
+        "rank": 158,
+        "country": "Liechtenstein",
+        "tahun": 2024,
+        "gdp_value": 8465000000,
+        "gdp_growth_pct": -0.29,
+        "gdp_per_capita": 207034,
+        "share_of_world_gdp_pct": 0.0076
+    },
+    {
+        "rank": 159,
+        "country": "Montenegro",
+        "tahun": 2024,
+        "gdp_value": 8069536126,
+        "gdp_growth_pct": 3.04,
+        "gdp_per_capita": 12935,
+        "share_of_world_gdp_pct": 0.0073
+    },
+    {
+        "rank": 160,
+        "country": "Yemen",
+        "tahun": 2024,
+        "gdp_value": 8058000000,
+        "gdp_growth_pct": -1.46,
+        "gdp_per_capita": 441,
+        "share_of_world_gdp_pct": 0.0072
+    },
+    {
+        "rank": 161,
+        "country": "Sierra Leone",
+        "tahun": 2024,
+        "gdp_value": 7547843281,
+        "gdp_growth_pct": 4.0,
+        "gdp_per_capita": 873,
+        "share_of_world_gdp_pct": 0.0068
+    },
+    {
+        "rank": 162,
+        "country": "Isle of Man",
+        "tahun": 2024,
+        "gdp_value": 7431257411,
+        "gdp_growth_pct": -4.17,
+        "gdp_per_capita": 88329,
+        "share_of_world_gdp_pct": 0.0073
+    },
+    {
+        "rank": 163,
+        "country": "Barbados",
+        "tahun": 2024,
+        "gdp_value": 7165000000,
+        "gdp_growth_pct": 3.8,
+        "gdp_per_capita": 25366,
+        "share_of_world_gdp_pct": 0.0064
+    },
+    {
+        "rank": 164,
+        "country": "Cayman Islands",
+        "tahun": 2024,
+        "gdp_value": 7139428558,
+        "gdp_growth_pct": 4.36,
+        "gdp_per_capita": 97750,
+        "share_of_world_gdp_pct": 0.0067
+    },
+    {
+        "rank": 165,
+        "country": "Maldives",
+        "tahun": 2024,
+        "gdp_value": 6975146349,
+        "gdp_growth_pct": 5.13,
+        "gdp_per_capita": 13216,
+        "share_of_world_gdp_pct": 0.0063
+    },
+    {
+        "rank": 166,
+        "country": "Guam",
+        "tahun": 2024,
+        "gdp_value": 6910000000,
+        "gdp_growth_pct": 5.1,
+        "gdp_per_capita": 41833,
+        "share_of_world_gdp_pct": 0.0067
+    },
+    {
+        "rank": 167,
+        "country": "French Polynesia",
+        "tahun": 2024,
+        "gdp_value": 6402221222,
+        "gdp_growth_pct": 3.0,
+        "gdp_per_capita": 22774,
+        "share_of_world_gdp_pct": 0.006
+    },
+    {
+        "rank": 168,
+        "country": "Fiji",
+        "tahun": 2024,
+        "gdp_value": 5840564073,
+        "gdp_growth_pct": 3.83,
+        "gdp_per_capita": 6288,
+        "share_of_world_gdp_pct": 0.0052
+    },
+    {
+        "rank": 169,
+        "country": "Eswatini",
+        "tahun": 2024,
+        "gdp_value": 4891883720,
+        "gdp_growth_pct": 2.64,
+        "gdp_per_capita": 3936,
+        "share_of_world_gdp_pct": 0.0044
+    },
+    {
+        "rank": 170,
+        "country": "Liberia",
+        "tahun": 2024,
+        "gdp_value": 4750000000,
+        "gdp_growth_pct": 4.79,
+        "gdp_per_capita": 846,
+        "share_of_world_gdp_pct": 0.0043
+    },
+    {
+        "rank": 171,
+        "country": "Suriname",
+        "tahun": 2024,
+        "gdp_value": 4714267822,
+        "gdp_growth_pct": 2.84,
+        "gdp_per_capita": 7431,
+        "share_of_world_gdp_pct": 0.0042
+    },
+    {
+        "rank": 172,
+        "country": "U.S. Virgin Islands",
+        "tahun": 2024,
+        "gdp_value": 4672000000,
+        "gdp_growth_pct": -1.31,
+        "gdp_per_capita": 44321,
+        "share_of_world_gdp_pct": 0.0046
+    },
+    {
+        "rank": 173,
+        "country": "South Sudan",
+        "tahun": 2024,
+        "gdp_value": 4637000000,
+        "gdp_growth_pct": -26.14,
+        "gdp_per_capita": 388,
+        "share_of_world_gdp_pct": 0.0042
+    },
+    {
+        "rank": 174,
+        "country": "Aruba",
+        "tahun": 2024,
+        "gdp_value": 4285000000,
+        "gdp_growth_pct": 7.64,
+        "gdp_per_capita": 39262,
+        "share_of_world_gdp_pct": 0.0038
+    },
+    {
+        "rank": 175,
+        "country": "Djibouti",
+        "tahun": 2024,
+        "gdp_value": 4086402719,
+        "gdp_growth_pct": 5.95,
+        "gdp_per_capita": 3496,
+        "share_of_world_gdp_pct": 0.0037
+    },
+    {
+        "rank": 176,
+        "country": "Andorra",
+        "tahun": 2024,
+        "gdp_value": 4039844390,
+        "gdp_growth_pct": 3.37,
+        "gdp_per_capita": 49304,
+        "share_of_world_gdp_pct": 0.0036
+    },
+    {
+        "rank": 177,
+        "country": "Faeroe Islands",
+        "tahun": 2024,
+        "gdp_value": 3907323961,
+        "gdp_growth_pct": 2.49,
+        "gdp_per_capita": 71774,
+        "share_of_world_gdp_pct": 0.0037
+    },
+    {
+        "rank": 178,
+        "country": "Belize",
+        "tahun": 2024,
+        "gdp_value": 3515783329,
+        "gdp_growth_pct": 8.15,
+        "gdp_per_capita": 8430,
+        "share_of_world_gdp_pct": 0.0032
+    },
+    {
+        "rank": 179,
+        "country": "Greenland",
+        "tahun": 2024,
+        "gdp_value": 3326544174,
+        "gdp_growth_pct": 0.87,
+        "gdp_per_capita": 58499,
+        "share_of_world_gdp_pct": 0.0031
+    },
+    {
+        "rank": 180,
+        "country": "Curaçao",
+        "tahun": 2024,
+        "gdp_value": 3281419347,
+        "gdp_growth_pct": 4.2,
+        "gdp_per_capita": 21062,
+        "share_of_world_gdp_pct": 0.0031
+    },
+    {
+        "rank": 181,
+        "country": "Bhutan",
+        "tahun": 2024,
+        "gdp_value": 3147000000,
+        "gdp_growth_pct": 6.1,
+        "gdp_per_capita": 3989,
+        "share_of_world_gdp_pct": 0.0028
+    },
+    {
+        "rank": 182,
+        "country": "Cabo Verde",
+        "tahun": 2024,
+        "gdp_value": 2767599017,
+        "gdp_growth_pct": 7.27,
+        "gdp_per_capita": 5273,
+        "share_of_world_gdp_pct": 0.0025
+    },
+    {
+        "rank": 183,
+        "country": "Central African Republic",
+        "tahun": 2024,
+        "gdp_value": 2751544520,
+        "gdp_growth_pct": 1.54,
+        "gdp_per_capita": 516,
+        "share_of_world_gdp_pct": 0.0025
+    },
+    {
+        "rank": 184,
+        "country": "Saint Lucia",
+        "tahun": 2024,
+        "gdp_value": 2549062963,
+        "gdp_growth_pct": 3.89,
+        "gdp_per_capita": 14182,
+        "share_of_world_gdp_pct": 0.0023
+    },
+    {
+        "rank": 185,
+        "country": "Gambia",
+        "tahun": 2024,
+        "gdp_value": 2507519958,
+        "gdp_growth_pct": 5.75,
+        "gdp_per_capita": 909,
+        "share_of_world_gdp_pct": 0.0023
+    },
+    {
+        "rank": 186,
+        "country": "Eritrea",
+        "tahun": 2024,
+        "gdp_value": 2275290216,
+        "gdp_growth_pct": 2.8,
+        "gdp_per_capita": 656,
+        "share_of_world_gdp_pct": 0.0021
+    },
+    {
+        "rank": 187,
+        "country": "Lesotho",
+        "tahun": 2024,
+        "gdp_value": 2271541846,
+        "gdp_growth_pct": 2.76,
+        "gdp_per_capita": 972,
+        "share_of_world_gdp_pct": 0.002
+    },
+    {
+        "rank": 188,
+        "country": "Antigua and Barbuda",
+        "tahun": 2024,
+        "gdp_value": 2224814815,
+        "gdp_growth_pct": 4.33,
+        "gdp_per_capita": 23726,
+        "share_of_world_gdp_pct": 0.002
+    },
+    {
+        "rank": 189,
+        "country": "Seychelles",
+        "tahun": 2024,
+        "gdp_value": 2167239562,
+        "gdp_growth_pct": 3.47,
+        "gdp_per_capita": 17859,
+        "share_of_world_gdp_pct": 0.0019
+    },
+    {
+        "rank": 190,
+        "country": "Burundi",
+        "tahun": 2024,
+        "gdp_value": 2162378759,
+        "gdp_growth_pct": 3.49,
+        "gdp_per_capita": 154,
+        "share_of_world_gdp_pct": 0.0019
+    },
+    {
+        "rank": 191,
+        "country": "Guinea-Bissau",
+        "tahun": 2024,
+        "gdp_value": 2119865935,
+        "gdp_growth_pct": 4.81,
+        "gdp_per_capita": 963,
+        "share_of_world_gdp_pct": 0.0019
+    },
+    {
+        "rank": 192,
+        "country": "San Marino",
+        "tahun": 2024,
+        "gdp_value": 2086000000,
+        "gdp_growth_pct": 1.0,
+        "gdp_per_capita": 60946,
+        "share_of_world_gdp_pct": 0.0019
+    },
+    {
+        "rank": 193,
+        "country": "Timor-Leste",
+        "tahun": 2024,
+        "gdp_value": 1881265333,
+        "gdp_growth_pct": -2.19,
+        "gdp_per_capita": 1343,
+        "share_of_world_gdp_pct": 0.0017
+    },
+    {
+        "rank": 194,
+        "country": "Solomon Islands",
+        "tahun": 2024,
+        "gdp_value": 1760767447,
+        "gdp_growth_pct": 2.54,
+        "gdp_per_capita": 2149,
+        "share_of_world_gdp_pct": 0.0016
+    },
+    {
+        "rank": 195,
+        "country": "Turks and Caicos",
+        "tahun": 2024,
+        "gdp_value": 1745378000,
+        "gdp_growth_pct": 5.64,
+        "gdp_per_capita": 37507,
+        "share_of_world_gdp_pct": 0.0016
+    },
+    {
+        "rank": 196,
+        "country": "Sint Maarten",
+        "tahun": 2024,
+        "gdp_value": 1735210228,
+        "gdp_growth_pct": 3.5,
+        "gdp_per_capita": 40028,
+        "share_of_world_gdp_pct": 0.0016
+    },
+    {
+        "rank": 197,
+        "country": "Comoros",
+        "tahun": 2024,
+        "gdp_value": 1546164420,
+        "gdp_growth_pct": 3.39,
+        "gdp_per_capita": 1784,
+        "share_of_world_gdp_pct": 0.0014
+    },
+    {
+        "rank": 198,
+        "country": "British Virgin Islands",
+        "tahun": 2024,
+        "gdp_value": 1505856107,
+        "gdp_growth_pct": 2.76,
+        "gdp_per_capita": 38627,
+        "share_of_world_gdp_pct": 0.0014
+    },
+    {
+        "rank": 199,
+        "country": "Grenada",
+        "tahun": 2024,
+        "gdp_value": 1391435993,
+        "gdp_growth_pct": 3.69,
+        "gdp_per_capita": 11872,
+        "share_of_world_gdp_pct": 0.0013
+    },
+    {
+        "rank": 200,
+        "country": "Vanuatu",
+        "tahun": 2024,
+        "gdp_value": 1161251868,
+        "gdp_growth_pct": 3.97,
+        "gdp_per_capita": 3543,
+        "share_of_world_gdp_pct": 0.001
+    },
+    {
+        "rank": 201,
+        "country": "St. Vincent & Grenadines",
+        "tahun": 2024,
+        "gdp_value": 1157207407,
+        "gdp_growth_pct": 4.06,
+        "gdp_per_capita": 11501,
+        "share_of_world_gdp_pct": 0.001
+    },
+    {
+        "rank": 202,
+        "country": "Northern Mariana Islands",
+        "tahun": 2024,
+        "gdp_value": 1096000000,
+        "gdp_growth_pct": 16.64,
+        "gdp_per_capita": 23786,
+        "share_of_world_gdp_pct": 0.0011
+    },
+    {
+        "rank": 203,
+        "country": "Samoa",
+        "tahun": 2024,
+        "gdp_value": 1068025244,
+        "gdp_growth_pct": 9.42,
+        "gdp_per_capita": 4899,
+        "share_of_world_gdp_pct": 0.00096
+    },
+    {
+        "rank": 204,
+        "country": "Saint Kitts & Nevis",
+        "tahun": 2024,
+        "gdp_value": 1066681481,
+        "gdp_growth_pct": 1.17,
+        "gdp_per_capita": 22771,
+        "share_of_world_gdp_pct": 0.00096
+    },
+    {
+        "rank": 205,
+        "country": "American Samoa",
+        "tahun": 2024,
+        "gdp_value": 871000000,
+        "gdp_growth_pct": 1.74,
+        "gdp_per_capita": 18017,
+        "share_of_world_gdp_pct": 0.00085
+    },
+    {
+        "rank": 206,
+        "country": "Sao Tome & Principe",
+        "tahun": 2024,
+        "gdp_value": 764274043,
+        "gdp_growth_pct": 0.9,
+        "gdp_per_capita": 3245,
+        "share_of_world_gdp_pct": 0.00069
+    },
+    {
+        "rank": 207,
+        "country": "Dominica",
+        "tahun": 2024,
+        "gdp_value": 688881481,
+        "gdp_growth_pct": 2.05,
+        "gdp_per_capita": 10405,
+        "share_of_world_gdp_pct": 0.00062
+    },
+    {
+        "rank": 208,
+        "country": "Saint Martin",
+        "tahun": 2024,
+        "gdp_value": 649206156,
+        "gdp_growth_pct": 4.9,
+        "gdp_per_capita": 21668,
+        "share_of_world_gdp_pct": 0.00066
+    },
+    {
+        "rank": 209,
+        "country": "Tonga",
+        "tahun": 2024,
+        "gdp_value": 646000000,
+        "gdp_growth_pct": 1.72,
+        "gdp_per_capita": 6498,
+        "share_of_world_gdp_pct": 0.00058
+    },
+    {
+        "rank": 210,
+        "country": "Micronesia",
+        "tahun": 2024,
+        "gdp_value": 471425099,
+        "gdp_growth_pct": 0.72,
+        "gdp_per_capita": 4166,
+        "share_of_world_gdp_pct": 0.00042
+    },
+    {
+        "rank": 211,
+        "country": "Anguilla",
+        "tahun": 2024,
+        "gdp_value": 415735284,
+        "gdp_growth_pct": 2.47,
+        "gdp_per_capita": 28850,
+        "share_of_world_gdp_pct": 0.00039
+    },
+    {
+        "rank": 212,
+        "country": "Cook Islands",
+        "tahun": 2024,
+        "gdp_value": 366211548,
+        "gdp_growth_pct": 19.07,
+        "gdp_per_capita": 25750,
+        "share_of_world_gdp_pct": 0.00035
+    },
+    {
+        "rank": 213,
+        "country": "Palau",
+        "tahun": 2024,
+        "gdp_value": 322000000,
+        "gdp_growth_pct": 12.01,
+        "gdp_per_capita": 18277,
+        "share_of_world_gdp_pct": 0.00029
+    },
+    {
+        "rank": 214,
+        "country": "Kiribati",
+        "tahun": 2024,
+        "gdp_value": 307862547,
+        "gdp_growth_pct": 5.27,
+        "gdp_per_capita": 2289,
+        "share_of_world_gdp_pct": 0.00028
+    },
+    {
+        "rank": 215,
+        "country": "Marshall Islands",
+        "tahun": 2024,
+        "gdp_value": 280357844,
+        "gdp_growth_pct": 2.77,
+        "gdp_per_capita": 7467,
+        "share_of_world_gdp_pct": 0.00025
+    },
+    {
+        "rank": 216,
+        "country": "Nauru",
+        "tahun": 2024,
+        "gdp_value": 160350640,
+        "gdp_growth_pct": 1.76,
+        "gdp_per_capita": 13422,
+        "share_of_world_gdp_pct": 0.00014
+    },
+    {
+        "rank": 217,
+        "country": "Montserrat",
+        "tahun": 2024,
+        "gdp_value": 80429630,
+        "gdp_growth_pct": 7.29,
+        "gdp_per_capita": 18197,
+        "share_of_world_gdp_pct": 7.6e-05
+    },
+    {
+        "rank": 218,
+        "country": "Tuvalu",
+        "tahun": 2024,
+        "gdp_value": 56000000,
+        "gdp_growth_pct": 3.08,
+        "gdp_per_capita": 5729,
+        "share_of_world_gdp_pct": 5e-05
+    }
+]
