@@ -1,0 +1,1865 @@
+[
+    {
+        "rank": 1,
+        "country": "China",
+        "tahun": 2024,
+        "co2_emission_ton": 13124727993,
+        "one_year_change_pct": 0.79,
+        "co2_per_capita_ton": 9.13,
+        "share_of_world_co2_pct": 33.12
+    },
+    {
+        "rank": 2,
+        "country": "United States",
+        "tahun": 2024,
+        "co2_emission_ton": 4632164876,
+        "one_year_change_pct": 0.3,
+        "co2_per_capita_ton": 13.59,
+        "share_of_world_co2_pct": 11.69
+    },
+    {
+        "rank": 3,
+        "country": "India",
+        "tahun": 2024,
+        "co2_emission_ton": 3153829130,
+        "one_year_change_pct": 4.62,
+        "co2_per_capita_ton": 2.19,
+        "share_of_world_co2_pct": 7.96
+    },
+    {
+        "rank": 4,
+        "country": "Russia",
+        "tahun": 2024,
+        "co2_emission_ton": 2009154097,
+        "one_year_change_pct": 3.12,
+        "co2_per_capita_ton": 14.06,
+        "share_of_world_co2_pct": 5.07
+    },
+    {
+        "rank": 5,
+        "country": "Japan",
+        "tahun": 2024,
+        "co2_emission_ton": 972266973,
+        "one_year_change_pct": -3.01,
+        "co2_per_capita_ton": 7.79,
+        "share_of_world_co2_pct": 2.45
+    },
+    {
+        "rank": 6,
+        "country": "Iran",
+        "tahun": 2024,
+        "co2_emission_ton": 828989585,
+        "one_year_change_pct": 1.58,
+        "co2_per_capita_ton": 9.62,
+        "share_of_world_co2_pct": 2.09
+    },
+    {
+        "rank": 7,
+        "country": "Indonesia",
+        "tahun": 2024,
+        "co2_emission_ton": 812204159,
+        "one_year_change_pct": 5.13,
+        "co2_per_capita_ton": 2.88,
+        "share_of_world_co2_pct": 2.05
+    },
+    {
+        "rank": 8,
+        "country": "Saudi Arabia",
+        "tahun": 2024,
+        "co2_emission_ton": 652511035,
+        "one_year_change_pct": 2.69,
+        "co2_per_capita_ton": 17.73,
+        "share_of_world_co2_pct": 1.65
+    },
+    {
+        "rank": 9,
+        "country": "South Korea",
+        "tahun": 2024,
+        "co2_emission_ton": 588008898,
+        "one_year_change_pct": -0.4,
+        "co2_per_capita_ton": 11.29,
+        "share_of_world_co2_pct": 1.48
+    },
+    {
+        "rank": 10,
+        "country": "Germany",
+        "tahun": 2024,
+        "co2_emission_ton": 579935607,
+        "one_year_change_pct": -1.65,
+        "co2_per_capita_ton": 7.03,
+        "share_of_world_co2_pct": 1.46
+    },
+    {
+        "rank": 11,
+        "country": "Canada",
+        "tahun": 2024,
+        "co2_emission_ton": 577972624,
+        "one_year_change_pct": 1.92,
+        "co2_per_capita_ton": 14.87,
+        "share_of_world_co2_pct": 1.46
+    },
+    {
+        "rank": 12,
+        "country": "Brazil",
+        "tahun": 2024,
+        "co2_emission_ton": 491468781,
+        "one_year_change_pct": 2.34,
+        "co2_per_capita_ton": 2.24,
+        "share_of_world_co2_pct": 1.24
+    },
+    {
+        "rank": 13,
+        "country": "Mexico",
+        "tahun": 2024,
+        "co2_emission_ton": 475992111,
+        "one_year_change_pct": 0.08,
+        "co2_per_capita_ton": 3.41,
+        "share_of_world_co2_pct": 1.2
+    },
+    {
+        "rank": 14,
+        "country": "Turkey",
+        "tahun": 2024,
+        "co2_emission_ton": 460027460,
+        "one_year_change_pct": 3.04,
+        "co2_per_capita_ton": 5.36,
+        "share_of_world_co2_pct": 1.16
+    },
+    {
+        "rank": 15,
+        "country": "South Africa",
+        "tahun": 2024,
+        "co2_emission_ton": 440167752,
+        "one_year_change_pct": 3.02,
+        "co2_per_capita_ton": 7.19,
+        "share_of_world_co2_pct": 1.11
+    },
+    {
+        "rank": 16,
+        "country": "Vietnam",
+        "tahun": 2024,
+        "co2_emission_ton": 430819227,
+        "one_year_change_pct": 10.26,
+        "co2_per_capita_ton": 4.23,
+        "share_of_world_co2_pct": 1.09
+    },
+    {
+        "rank": 17,
+        "country": "Australia",
+        "tahun": 2024,
+        "co2_emission_ton": 383403111,
+        "one_year_change_pct": 1.56,
+        "co2_per_capita_ton": 14.43,
+        "share_of_world_co2_pct": 0.97
+    },
+    {
+        "rank": 18,
+        "country": "Italy",
+        "tahun": 2024,
+        "co2_emission_ton": 299228526,
+        "one_year_change_pct": -1.67,
+        "co2_per_capita_ton": 5.1,
+        "share_of_world_co2_pct": 0.76
+    },
+    {
+        "rank": 19,
+        "country": "Malaysia",
+        "tahun": 2024,
+        "co2_emission_ton": 295954220,
+        "one_year_change_pct": 4.81,
+        "co2_per_capita_ton": 8.57,
+        "share_of_world_co2_pct": 0.75
+    },
+    {
+        "rank": 20,
+        "country": "United Kingdom",
+        "tahun": 2024,
+        "co2_emission_ton": 292419359,
+        "one_year_change_pct": -4.06,
+        "co2_per_capita_ton": 4.25,
+        "share_of_world_co2_pct": 0.74
+    },
+    {
+        "rank": 21,
+        "country": "Egypt",
+        "tahun": 2024,
+        "co2_emission_ton": 291638583,
+        "one_year_change_pct": 5.73,
+        "co2_per_capita_ton": 2.66,
+        "share_of_world_co2_pct": 0.74
+    },
+    {
+        "rank": 22,
+        "country": "Thailand",
+        "tahun": 2024,
+        "co2_emission_ton": 283809078,
+        "one_year_change_pct": 3.19,
+        "co2_per_capita_ton": 4.07,
+        "share_of_world_co2_pct": 0.72
+    },
+    {
+        "rank": 23,
+        "country": "Taiwan",
+        "tahun": 2024,
+        "co2_emission_ton": 280491856,
+        "one_year_change_pct": -0.48,
+        "co2_per_capita_ton": 11.68,
+        "share_of_world_co2_pct": 0.71
+    },
+    {
+        "rank": 24,
+        "country": "Poland",
+        "tahun": 2024,
+        "co2_emission_ton": 276061915,
+        "one_year_change_pct": -1.63,
+        "co2_per_capita_ton": 7.36,
+        "share_of_world_co2_pct": 0.7
+    },
+    {
+        "rank": 25,
+        "country": "France",
+        "tahun": 2024,
+        "co2_emission_ton": 274450524,
+        "one_year_change_pct": -3.41,
+        "co2_per_capita_ton": 4.12,
+        "share_of_world_co2_pct": 0.69
+    },
+    {
+        "rank": 26,
+        "country": "Kazakhstan",
+        "tahun": 2024,
+        "co2_emission_ton": 258803717,
+        "one_year_change_pct": 1.32,
+        "co2_per_capita_ton": 13.3,
+        "share_of_world_co2_pct": 0.65
+    },
+    {
+        "rank": 27,
+        "country": "Iraq",
+        "tahun": 2024,
+        "co2_emission_ton": 238670397,
+        "one_year_change_pct": 2.44,
+        "co2_per_capita_ton": 5.19,
+        "share_of_world_co2_pct": 0.6
+    },
+    {
+        "rank": 28,
+        "country": "Spain",
+        "tahun": 2024,
+        "co2_emission_ton": 220083943,
+        "one_year_change_pct": -0.41,
+        "co2_per_capita_ton": 4.75,
+        "share_of_world_co2_pct": 0.56
+    },
+    {
+        "rank": 29,
+        "country": "Pakistan",
+        "tahun": 2024,
+        "co2_emission_ton": 203988261,
+        "one_year_change_pct": -2.35,
+        "co2_per_capita_ton": 0.91,
+        "share_of_world_co2_pct": 0.51
+    },
+    {
+        "rank": 30,
+        "country": "United Arab Emirates",
+        "tahun": 2024,
+        "co2_emission_ton": 200558970,
+        "one_year_change_pct": 4.08,
+        "co2_per_capita_ton": 19.45,
+        "share_of_world_co2_pct": 0.51
+    },
+    {
+        "rank": 31,
+        "country": "Algeria",
+        "tahun": 2024,
+        "co2_emission_ton": 186358382,
+        "one_year_change_pct": -2.21,
+        "co2_per_capita_ton": 4.07,
+        "share_of_world_co2_pct": 0.47
+    },
+    {
+        "rank": 32,
+        "country": "Argentina",
+        "tahun": 2024,
+        "co2_emission_ton": 183271991,
+        "one_year_change_pct": -3.49,
+        "co2_per_capita_ton": 3.89,
+        "share_of_world_co2_pct": 0.46
+    },
+    {
+        "rank": 33,
+        "country": "Philippines",
+        "tahun": 2024,
+        "co2_emission_ton": 174114309,
+        "one_year_change_pct": 7.18,
+        "co2_per_capita_ton": 1.5,
+        "share_of_world_co2_pct": 0.44
+    },
+    {
+        "rank": 34,
+        "country": "Uzbekistan",
+        "tahun": 2024,
+        "co2_emission_ton": 148538808,
+        "one_year_change_pct": 11.99,
+        "co2_per_capita_ton": 4.27,
+        "share_of_world_co2_pct": 0.37
+    },
+    {
+        "rank": 35,
+        "country": "Qatar",
+        "tahun": 2024,
+        "co2_emission_ton": 135266875,
+        "one_year_change_pct": 4.7,
+        "co2_per_capita_ton": 45.33,
+        "share_of_world_co2_pct": 0.34
+    },
+    {
+        "rank": 36,
+        "country": "Nigeria",
+        "tahun": 2024,
+        "co2_emission_ton": 131910141,
+        "one_year_change_pct": 4.8,
+        "co2_per_capita_ton": 0.58,
+        "share_of_world_co2_pct": 0.33
+    },
+    {
+        "rank": 37,
+        "country": "Bangladesh",
+        "tahun": 2024,
+        "co2_emission_ton": 124190733,
+        "one_year_change_pct": 4.37,
+        "co2_per_capita_ton": 0.7,
+        "share_of_world_co2_pct": 0.31
+    },
+    {
+        "rank": 38,
+        "country": "Netherlands",
+        "tahun": 2024,
+        "co2_emission_ton": 118790884,
+        "one_year_change_pct": -3.36,
+        "co2_per_capita_ton": 6.84,
+        "share_of_world_co2_pct": 0.3
+    },
+    {
+        "rank": 39,
+        "country": "Ukraine",
+        "tahun": 2024,
+        "co2_emission_ton": 118477849,
+        "one_year_change_pct": -2.64,
+        "co2_per_capita_ton": 2.78,
+        "share_of_world_co2_pct": 0.3
+    },
+    {
+        "rank": 40,
+        "country": "Kuwait",
+        "tahun": 2024,
+        "co2_emission_ton": 115931281,
+        "one_year_change_pct": 5.24,
+        "co2_per_capita_ton": 25.51,
+        "share_of_world_co2_pct": 0.29
+    },
+    {
+        "rank": 41,
+        "country": "Oman",
+        "tahun": 2024,
+        "co2_emission_ton": 98511206,
+        "one_year_change_pct": 2.9,
+        "co2_per_capita_ton": 17.89,
+        "share_of_world_co2_pct": 0.25
+    },
+    {
+        "rank": 42,
+        "country": "Venezuela",
+        "tahun": 2024,
+        "co2_emission_ton": 96411416,
+        "one_year_change_pct": 0.02,
+        "co2_per_capita_ton": 2.78,
+        "share_of_world_co2_pct": 0.24
+    },
+    {
+        "rank": 43,
+        "country": "Colombia",
+        "tahun": 2024,
+        "co2_emission_ton": 95079303,
+        "one_year_change_pct": 2.46,
+        "co2_per_capita_ton": 1.84,
+        "share_of_world_co2_pct": 0.24
+    },
+    {
+        "rank": 44,
+        "country": "Belgium",
+        "tahun": 2024,
+        "co2_emission_ton": 86646316,
+        "one_year_change_pct": 1.07,
+        "co2_per_capita_ton": 7.35,
+        "share_of_world_co2_pct": 0.22
+    },
+    {
+        "rank": 45,
+        "country": "Turkmenistan",
+        "tahun": 2024,
+        "co2_emission_ton": 81408012,
+        "one_year_change_pct": -14.06,
+        "co2_per_capita_ton": 12.81,
+        "share_of_world_co2_pct": 0.21
+    },
+    {
+        "rank": 46,
+        "country": "Chile",
+        "tahun": 2024,
+        "co2_emission_ton": 77822575,
+        "one_year_change_pct": 1.06,
+        "co2_per_capita_ton": 4.1,
+        "share_of_world_co2_pct": 0.2
+    },
+    {
+        "rank": 47,
+        "country": "Czech Republic (Czechia)",
+        "tahun": 2024,
+        "co2_emission_ton": 77749164,
+        "one_year_change_pct": -9.18,
+        "co2_per_capita_ton": 7.32,
+        "share_of_world_co2_pct": 0.2
+    },
+    {
+        "rank": 48,
+        "country": "Romania",
+        "tahun": 2024,
+        "co2_emission_ton": 70883168,
+        "one_year_change_pct": 0.9,
+        "co2_per_capita_ton": 3.73,
+        "share_of_world_co2_pct": 0.18
+    },
+    {
+        "rank": 49,
+        "country": "Morocco",
+        "tahun": 2024,
+        "co2_emission_ton": 70040885,
+        "one_year_change_pct": -0.01,
+        "co2_per_capita_ton": 1.81,
+        "share_of_world_co2_pct": 0.18
+    },
+    {
+        "rank": 50,
+        "country": "Peru",
+        "tahun": 2024,
+        "co2_emission_ton": 69265213,
+        "one_year_change_pct": 6.43,
+        "co2_per_capita_ton": 1.99,
+        "share_of_world_co2_pct": 0.17
+    },
+    {
+        "rank": 51,
+        "country": "North Korea",
+        "tahun": 2024,
+        "co2_emission_ton": 66239386,
+        "one_year_change_pct": 0.88,
+        "co2_per_capita_ton": 2.52,
+        "share_of_world_co2_pct": 0.17
+    },
+    {
+        "rank": 52,
+        "country": "Libya",
+        "tahun": 2024,
+        "co2_emission_ton": 63953380,
+        "one_year_change_pct": 1.19,
+        "co2_per_capita_ton": 9.18,
+        "share_of_world_co2_pct": 0.16
+    },
+    {
+        "rank": 53,
+        "country": "Singapore",
+        "tahun": 2024,
+        "co2_emission_ton": 58868050,
+        "one_year_change_pct": 4.93,
+        "co2_per_capita_ton": 9.62,
+        "share_of_world_co2_pct": 0.15
+    },
+    {
+        "rank": 54,
+        "country": "Austria",
+        "tahun": 2024,
+        "co2_emission_ton": 58030404,
+        "one_year_change_pct": -0.76,
+        "co2_per_capita_ton": 6.55,
+        "share_of_world_co2_pct": 0.15
+    },
+    {
+        "rank": 55,
+        "country": "Israel",
+        "tahun": 2024,
+        "co2_emission_ton": 57665413,
+        "one_year_change_pct": -4.65,
+        "co2_per_capita_ton": 3.82,
+        "share_of_world_co2_pct": 0.15
+    },
+    {
+        "rank": 56,
+        "country": "Belarus",
+        "tahun": 2024,
+        "co2_emission_ton": 54215798,
+        "one_year_change_pct": 0.73,
+        "co2_per_capita_ton": 5.81,
+        "share_of_world_co2_pct": 0.14
+    },
+    {
+        "rank": 57,
+        "country": "Greece",
+        "tahun": 2024,
+        "co2_emission_ton": 52508701,
+        "one_year_change_pct": 2.48,
+        "co2_per_capita_ton": 4.78,
+        "share_of_world_co2_pct": 0.13
+    },
+    {
+        "rank": 58,
+        "country": "Ecuador",
+        "tahun": 2024,
+        "co2_emission_ton": 47963814,
+        "one_year_change_pct": 2.51,
+        "co2_per_capita_ton": 2.63,
+        "share_of_world_co2_pct": 0.12
+    },
+    {
+        "rank": 59,
+        "country": "Hungary",
+        "tahun": 2024,
+        "co2_emission_ton": 42626871,
+        "one_year_change_pct": -0.82,
+        "co2_per_capita_ton": 4.5,
+        "share_of_world_co2_pct": 0.11
+    },
+    {
+        "rank": 60,
+        "country": "Norway",
+        "tahun": 2024,
+        "co2_emission_ton": 39999523,
+        "one_year_change_pct": -3.86,
+        "co2_per_capita_ton": 7.07,
+        "share_of_world_co2_pct": 0.1
+    },
+    {
+        "rank": 61,
+        "country": "Azerbaijan",
+        "tahun": 2024,
+        "co2_emission_ton": 38887499,
+        "one_year_change_pct": -6.85,
+        "co2_per_capita_ton": 3.75,
+        "share_of_world_co2_pct": 0.098
+    },
+    {
+        "rank": 62,
+        "country": "Bahrain",
+        "tahun": 2024,
+        "co2_emission_ton": 37969166,
+        "one_year_change_pct": -1.86,
+        "co2_per_capita_ton": 20.7,
+        "share_of_world_co2_pct": 0.096
+    },
+    {
+        "rank": 63,
+        "country": "Sweden",
+        "tahun": 2024,
+        "co2_emission_ton": 37774193,
+        "one_year_change_pct": 3.02,
+        "co2_per_capita_ton": 3.64,
+        "share_of_world_co2_pct": 0.095
+    },
+    {
+        "rank": 64,
+        "country": "Portugal",
+        "tahun": 2024,
+        "co2_emission_ton": 35557290,
+        "one_year_change_pct": -4.96,
+        "co2_per_capita_ton": 3.53,
+        "share_of_world_co2_pct": 0.09
+    },
+    {
+        "rank": 65,
+        "country": "Hong Kong",
+        "tahun": 2024,
+        "co2_emission_ton": 34616164,
+        "one_year_change_pct": 1.46,
+        "co2_per_capita_ton": 4.48,
+        "share_of_world_co2_pct": 0.087
+    },
+    {
+        "rank": 66,
+        "country": "Dominican Republic",
+        "tahun": 2024,
+        "co2_emission_ton": 34222495,
+        "one_year_change_pct": 4.37,
+        "co2_per_capita_ton": 2.97,
+        "share_of_world_co2_pct": 0.086
+    },
+    {
+        "rank": 67,
+        "country": "Bulgaria",
+        "tahun": 2024,
+        "co2_emission_ton": 34188472,
+        "one_year_change_pct": -7.53,
+        "co2_per_capita_ton": 5.07,
+        "share_of_world_co2_pct": 0.086
+    },
+    {
+        "rank": 68,
+        "country": "Switzerland",
+        "tahun": 2024,
+        "co2_emission_ton": 33732136,
+        "one_year_change_pct": 0.2,
+        "co2_per_capita_ton": 3.79,
+        "share_of_world_co2_pct": 0.085
+    },
+    {
+        "rank": 69,
+        "country": "Ireland",
+        "tahun": 2024,
+        "co2_emission_ton": 32569284,
+        "one_year_change_pct": -0.89,
+        "co2_per_capita_ton": 6.47,
+        "share_of_world_co2_pct": 0.082
+    },
+    {
+        "rank": 70,
+        "country": "Tunisia",
+        "tahun": 2024,
+        "co2_emission_ton": 32179949,
+        "one_year_change_pct": 3.11,
+        "co2_per_capita_ton": 2.61,
+        "share_of_world_co2_pct": 0.081
+    },
+    {
+        "rank": 71,
+        "country": "New Zealand",
+        "tahun": 2024,
+        "co2_emission_ton": 31814597,
+        "one_year_change_pct": 0.12,
+        "co2_per_capita_ton": 6.37,
+        "share_of_world_co2_pct": 0.08
+    },
+    {
+        "rank": 72,
+        "country": "Syria",
+        "tahun": 2024,
+        "co2_emission_ton": 31449838,
+        "one_year_change_pct": 0.3,
+        "co2_per_capita_ton": 1.4,
+        "share_of_world_co2_pct": 0.079
+    },
+    {
+        "rank": 73,
+        "country": "Myanmar",
+        "tahun": 2024,
+        "co2_emission_ton": 31362831,
+        "one_year_change_pct": 0.39,
+        "co2_per_capita_ton": 0.55,
+        "share_of_world_co2_pct": 0.079
+    },
+    {
+        "rank": 74,
+        "country": "Finland",
+        "tahun": 2024,
+        "co2_emission_ton": 31107444,
+        "one_year_change_pct": -5.41,
+        "co2_per_capita_ton": 5.5,
+        "share_of_world_co2_pct": 0.078
+    },
+    {
+        "rank": 75,
+        "country": "Slovakia",
+        "tahun": 2024,
+        "co2_emission_ton": 29892541,
+        "one_year_change_pct": -4.03,
+        "co2_per_capita_ton": 5.49,
+        "share_of_world_co2_pct": 0.075
+    },
+    {
+        "rank": 76,
+        "country": "Bolivia",
+        "tahun": 2024,
+        "co2_emission_ton": 28435622,
+        "one_year_change_pct": 16.42,
+        "co2_per_capita_ton": 2.33,
+        "share_of_world_co2_pct": 0.072
+    },
+    {
+        "rank": 77,
+        "country": "Angola",
+        "tahun": 2024,
+        "co2_emission_ton": 28100364,
+        "one_year_change_pct": 2.8,
+        "co2_per_capita_ton": 0.75,
+        "share_of_world_co2_pct": 0.071
+    },
+    {
+        "rank": 78,
+        "country": "Mongolia",
+        "tahun": 2024,
+        "co2_emission_ton": 27657810,
+        "one_year_change_pct": 1.86,
+        "co2_per_capita_ton": 8.21,
+        "share_of_world_co2_pct": 0.07
+    },
+    {
+        "rank": 79,
+        "country": "Trinidad and Tobago",
+        "tahun": 2024,
+        "co2_emission_ton": 26793426,
+        "one_year_change_pct": -0.58,
+        "co2_per_capita_ton": 19.4,
+        "share_of_world_co2_pct": 0.068
+    },
+    {
+        "rank": 80,
+        "country": "Laos",
+        "tahun": 2024,
+        "co2_emission_ton": 26062727,
+        "one_year_change_pct": 1.24,
+        "co2_per_capita_ton": 3.46,
+        "share_of_world_co2_pct": 0.066
+    },
+    {
+        "rank": 81,
+        "country": "Denmark",
+        "tahun": 2024,
+        "co2_emission_ton": 25570825,
+        "one_year_change_pct": -2.44,
+        "co2_per_capita_ton": 4.34,
+        "share_of_world_co2_pct": 0.065
+    },
+    {
+        "rank": 82,
+        "country": "Ghana",
+        "tahun": 2024,
+        "co2_emission_ton": 24171006,
+        "one_year_change_pct": 4.08,
+        "co2_per_capita_ton": 0.73,
+        "share_of_world_co2_pct": 0.061
+    },
+    {
+        "rank": 83,
+        "country": "Jordan",
+        "tahun": 2024,
+        "co2_emission_ton": 24143975,
+        "one_year_change_pct": 0.43,
+        "co2_per_capita_ton": 2.29,
+        "share_of_world_co2_pct": 0.061
+    },
+    {
+        "rank": 84,
+        "country": "Sri Lanka",
+        "tahun": 2024,
+        "co2_emission_ton": 23334668,
+        "one_year_change_pct": 8.13,
+        "co2_per_capita_ton": 1.1,
+        "share_of_world_co2_pct": 0.059
+    },
+    {
+        "rank": 85,
+        "country": "Sudan",
+        "tahun": 2024,
+        "co2_emission_ton": 21867830,
+        "one_year_change_pct": 0.76,
+        "co2_per_capita_ton": 0.34,
+        "share_of_world_co2_pct": 0.055
+    },
+    {
+        "rank": 86,
+        "country": "Kenya",
+        "tahun": 2024,
+        "co2_emission_ton": 21638682,
+        "one_year_change_pct": 1.74,
+        "co2_per_capita_ton": 0.37,
+        "share_of_world_co2_pct": 0.055
+    },
+    {
+        "rank": 87,
+        "country": "Tanzania",
+        "tahun": 2024,
+        "co2_emission_ton": 21336296,
+        "one_year_change_pct": -1.1,
+        "co2_per_capita_ton": 0.3,
+        "share_of_world_co2_pct": 0.054
+    },
+    {
+        "rank": 88,
+        "country": "Cuba",
+        "tahun": 2024,
+        "co2_emission_ton": 21004155,
+        "one_year_change_pct": 4.88,
+        "co2_per_capita_ton": 1.82,
+        "share_of_world_co2_pct": 0.053
+    },
+    {
+        "rank": 89,
+        "country": "Bosnia and Herzegovina",
+        "tahun": 2024,
+        "co2_emission_ton": 20407390,
+        "one_year_change_pct": -2.02,
+        "co2_per_capita_ton": 5.89,
+        "share_of_world_co2_pct": 0.051
+    },
+    {
+        "rank": 90,
+        "country": "Guatemala",
+        "tahun": 2024,
+        "co2_emission_ton": 20369356,
+        "one_year_change_pct": 1.2,
+        "co2_per_capita_ton": 1.06,
+        "share_of_world_co2_pct": 0.051
+    },
+    {
+        "rank": 91,
+        "country": "Cambodia",
+        "tahun": 2024,
+        "co2_emission_ton": 19439220,
+        "one_year_change_pct": 2.77,
+        "co2_per_capita_ton": 1.1,
+        "share_of_world_co2_pct": 0.049
+    },
+    {
+        "rank": 92,
+        "country": "Ethiopia",
+        "tahun": 2024,
+        "co2_emission_ton": 19364847,
+        "one_year_change_pct": 1.83,
+        "co2_per_capita_ton": 0.16,
+        "share_of_world_co2_pct": 0.049
+    },
+    {
+        "rank": 93,
+        "country": "Côte d'Ivoire",
+        "tahun": 2024,
+        "co2_emission_ton": 18810952,
+        "one_year_change_pct": 4.94,
+        "co2_per_capita_ton": 0.65,
+        "share_of_world_co2_pct": 0.047
+    },
+    {
+        "rank": 94,
+        "country": "Croatia",
+        "tahun": 2024,
+        "co2_emission_ton": 18679585,
+        "one_year_change_pct": 0.08,
+        "co2_per_capita_ton": 4.64,
+        "share_of_world_co2_pct": 0.047
+    },
+    {
+        "rank": 95,
+        "country": "Nepal",
+        "tahun": 2024,
+        "co2_emission_ton": 15891857,
+        "one_year_change_pct": 2.98,
+        "co2_per_capita_ton": 0.5,
+        "share_of_world_co2_pct": 0.04
+    },
+    {
+        "rank": 96,
+        "country": "Puerto Rico",
+        "tahun": 2024,
+        "co2_emission_ton": 15430081,
+        "one_year_change_pct": 5.47,
+        "co2_per_capita_ton": 4.25,
+        "share_of_world_co2_pct": 0.039
+    },
+    {
+        "rank": 97,
+        "country": "Senegal",
+        "tahun": 2024,
+        "co2_emission_ton": 14202340,
+        "one_year_change_pct": 3.54,
+        "co2_per_capita_ton": 0.74,
+        "share_of_world_co2_pct": 0.036
+    },
+    {
+        "rank": 98,
+        "country": "Georgia",
+        "tahun": 2024,
+        "co2_emission_ton": 13467408,
+        "one_year_change_pct": -0.66,
+        "co2_per_capita_ton": 3.5,
+        "share_of_world_co2_pct": 0.034
+    },
+    {
+        "rank": 99,
+        "country": "Slovenia",
+        "tahun": 2024,
+        "co2_emission_ton": 13331365,
+        "one_year_change_pct": 5.65,
+        "co2_per_capita_ton": 6.42,
+        "share_of_world_co2_pct": 0.034
+    },
+    {
+        "rank": 100,
+        "country": "Lithuania",
+        "tahun": 2024,
+        "co2_emission_ton": 12969975,
+        "one_year_change_pct": -0.07,
+        "co2_per_capita_ton": 4.63,
+        "share_of_world_co2_pct": 0.033
+    },
+    {
+        "rank": 101,
+        "country": "Zimbabwe",
+        "tahun": 2024,
+        "co2_emission_ton": 12855358,
+        "one_year_change_pct": 2.3,
+        "co2_per_capita_ton": 0.67,
+        "share_of_world_co2_pct": 0.032
+    },
+    {
+        "rank": 102,
+        "country": "Panama",
+        "tahun": 2024,
+        "co2_emission_ton": 12365032,
+        "one_year_change_pct": -2.93,
+        "co2_per_capita_ton": 2.73,
+        "share_of_world_co2_pct": 0.031
+    },
+    {
+        "rank": 103,
+        "country": "Honduras",
+        "tahun": 2024,
+        "co2_emission_ton": 12292756,
+        "one_year_change_pct": 3.74,
+        "co2_per_capita_ton": 1.19,
+        "share_of_world_co2_pct": 0.031
+    },
+    {
+        "rank": 104,
+        "country": "Afghanistan",
+        "tahun": 2024,
+        "co2_emission_ton": 12068415,
+        "one_year_change_pct": 3.6,
+        "co2_per_capita_ton": 0.29,
+        "share_of_world_co2_pct": 0.03
+    },
+    {
+        "rank": 105,
+        "country": "Zambia",
+        "tahun": 2024,
+        "co2_emission_ton": 11573195,
+        "one_year_change_pct": 1.89,
+        "co2_per_capita_ton": 0.55,
+        "share_of_world_co2_pct": 0.029
+    },
+    {
+        "rank": 106,
+        "country": "Lebanon",
+        "tahun": 2024,
+        "co2_emission_ton": 11004120,
+        "one_year_change_pct": 1.71,
+        "co2_per_capita_ton": 1.93,
+        "share_of_world_co2_pct": 0.028
+    },
+    {
+        "rank": 107,
+        "country": "Kyrgyzstan",
+        "tahun": 2024,
+        "co2_emission_ton": 10744958,
+        "one_year_change_pct": 5.03,
+        "co2_per_capita_ton": 1.63,
+        "share_of_world_co2_pct": 0.027
+    },
+    {
+        "rank": 108,
+        "country": "Estonia",
+        "tahun": 2024,
+        "co2_emission_ton": 10648547,
+        "one_year_change_pct": -7.19,
+        "co2_per_capita_ton": 8.29,
+        "share_of_world_co2_pct": 0.027
+    },
+    {
+        "rank": 109,
+        "country": "Yemen",
+        "tahun": 2024,
+        "co2_emission_ton": 10580331,
+        "one_year_change_pct": -0.42,
+        "co2_per_capita_ton": 0.32,
+        "share_of_world_co2_pct": 0.027
+    },
+    {
+        "rank": 110,
+        "country": "Cameroon",
+        "tahun": 2024,
+        "co2_emission_ton": 10292889,
+        "one_year_change_pct": -0.39,
+        "co2_per_capita_ton": 0.36,
+        "share_of_world_co2_pct": 0.026
+    },
+    {
+        "rank": 111,
+        "country": "Mozambique",
+        "tahun": 2024,
+        "co2_emission_ton": 10112699,
+        "one_year_change_pct": -5.66,
+        "co2_per_capita_ton": 0.28,
+        "share_of_world_co2_pct": 0.026
+    },
+    {
+        "rank": 112,
+        "country": "Tajikistan",
+        "tahun": 2024,
+        "co2_emission_ton": 9769852,
+        "one_year_change_pct": 4.82,
+        "co2_per_capita_ton": 0.96,
+        "share_of_world_co2_pct": 0.025
+    },
+    {
+        "rank": 113,
+        "country": "El Salvador",
+        "tahun": 2024,
+        "co2_emission_ton": 9543361,
+        "one_year_change_pct": 3.32,
+        "co2_per_capita_ton": 1.44,
+        "share_of_world_co2_pct": 0.024
+    },
+    {
+        "rank": 114,
+        "country": "Brunei",
+        "tahun": 2024,
+        "co2_emission_ton": 9366689,
+        "one_year_change_pct": -3.47,
+        "co2_per_capita_ton": 20.19,
+        "share_of_world_co2_pct": 0.024
+    },
+    {
+        "rank": 115,
+        "country": "Uruguay",
+        "tahun": 2024,
+        "co2_emission_ton": 8695336,
+        "one_year_change_pct": 6.16,
+        "co2_per_capita_ton": 2.46,
+        "share_of_world_co2_pct": 0.022
+    },
+    {
+        "rank": 116,
+        "country": "Congo",
+        "tahun": 2024,
+        "co2_emission_ton": 8456802,
+        "one_year_change_pct": 7.49,
+        "co2_per_capita_ton": 1.34,
+        "share_of_world_co2_pct": 0.021
+    },
+    {
+        "rank": 117,
+        "country": "Costa Rica",
+        "tahun": 2024,
+        "co2_emission_ton": 8376338,
+        "one_year_change_pct": 3.44,
+        "co2_per_capita_ton": 1.61,
+        "share_of_world_co2_pct": 0.021
+    },
+    {
+        "rank": 118,
+        "country": "Uganda",
+        "tahun": 2024,
+        "co2_emission_ton": 8254862,
+        "one_year_change_pct": 1.7,
+        "co2_per_capita_ton": 0.15,
+        "share_of_world_co2_pct": 0.021
+    },
+    {
+        "rank": 119,
+        "country": "Moldova",
+        "tahun": 2024,
+        "co2_emission_ton": 8208088,
+        "one_year_change_pct": 0.01,
+        "co2_per_capita_ton": 2.07,
+        "share_of_world_co2_pct": 0.021
+    },
+    {
+        "rank": 120,
+        "country": "Jamaica",
+        "tahun": 2024,
+        "co2_emission_ton": 8074048,
+        "one_year_change_pct": 4.81,
+        "co2_per_capita_ton": 2.75,
+        "share_of_world_co2_pct": 0.02
+    },
+    {
+        "rank": 121,
+        "country": "Paraguay",
+        "tahun": 2024,
+        "co2_emission_ton": 8025319,
+        "one_year_change_pct": 3.65,
+        "co2_per_capita_ton": 1.09,
+        "share_of_world_co2_pct": 0.02
+    },
+    {
+        "rank": 122,
+        "country": "Armenia",
+        "tahun": 2024,
+        "co2_emission_ton": 7493590,
+        "one_year_change_pct": -0.07,
+        "co2_per_capita_ton": 2.55,
+        "share_of_world_co2_pct": 0.019
+    },
+    {
+        "rank": 123,
+        "country": "Mali",
+        "tahun": 2024,
+        "co2_emission_ton": 7412128,
+        "one_year_change_pct": 3.28,
+        "co2_per_capita_ton": 0.33,
+        "share_of_world_co2_pct": 0.019
+    },
+    {
+        "rank": 124,
+        "country": "Cyprus",
+        "tahun": 2024,
+        "co2_emission_ton": 7341094,
+        "one_year_change_pct": 1.91,
+        "co2_per_capita_ton": 5.92,
+        "share_of_world_co2_pct": 0.019
+    },
+    {
+        "rank": 125,
+        "country": "North Macedonia",
+        "tahun": 2024,
+        "co2_emission_ton": 7297318,
+        "one_year_change_pct": -9.01,
+        "co2_per_capita_ton": 3.49,
+        "share_of_world_co2_pct": 0.018
+    },
+    {
+        "rank": 126,
+        "country": "Luxembourg",
+        "tahun": 2024,
+        "co2_emission_ton": 7147366,
+        "one_year_change_pct": 2.96,
+        "co2_per_capita_ton": 11.27,
+        "share_of_world_co2_pct": 0.018
+    },
+    {
+        "rank": 127,
+        "country": "Benin",
+        "tahun": 2024,
+        "co2_emission_ton": 7048076,
+        "one_year_change_pct": 2.26,
+        "co2_per_capita_ton": 0.52,
+        "share_of_world_co2_pct": 0.018
+    },
+    {
+        "rank": 128,
+        "country": "Botswana",
+        "tahun": 2024,
+        "co2_emission_ton": 6901601,
+        "one_year_change_pct": 2.69,
+        "co2_per_capita_ton": 2.68,
+        "share_of_world_co2_pct": 0.017
+    },
+    {
+        "rank": 129,
+        "country": "Latvia",
+        "tahun": 2024,
+        "co2_emission_ton": 6807219,
+        "one_year_change_pct": -1.35,
+        "co2_per_capita_ton": 3.73,
+        "share_of_world_co2_pct": 0.017
+    },
+    {
+        "rank": 130,
+        "country": "Burkina Faso",
+        "tahun": 2024,
+        "co2_emission_ton": 6475687,
+        "one_year_change_pct": 3.38,
+        "co2_per_capita_ton": 0.28,
+        "share_of_world_co2_pct": 0.016
+    },
+    {
+        "rank": 131,
+        "country": "DR Congo",
+        "tahun": 2024,
+        "co2_emission_ton": 6209636,
+        "one_year_change_pct": 1.13,
+        "co2_per_capita_ton": 0.06,
+        "share_of_world_co2_pct": 0.016
+    },
+    {
+        "rank": 132,
+        "country": "Nicaragua",
+        "tahun": 2024,
+        "co2_emission_ton": 5739324,
+        "one_year_change_pct": 3.66,
+        "co2_per_capita_ton": 0.86,
+        "share_of_world_co2_pct": 0.014
+    },
+    {
+        "rank": 133,
+        "country": "Papua New Guinea",
+        "tahun": 2024,
+        "co2_emission_ton": 5467691,
+        "one_year_change_pct": -0.55,
+        "co2_per_capita_ton": 0.58,
+        "share_of_world_co2_pct": 0.014
+    },
+    {
+        "rank": 134,
+        "country": "Guinea",
+        "tahun": 2024,
+        "co2_emission_ton": 5205403,
+        "one_year_change_pct": 3.56,
+        "co2_per_capita_ton": 0.34,
+        "share_of_world_co2_pct": 0.013
+    },
+    {
+        "rank": 135,
+        "country": "Gabon",
+        "tahun": 2024,
+        "co2_emission_ton": 5198527,
+        "one_year_change_pct": 1.52,
+        "co2_per_capita_ton": 2.23,
+        "share_of_world_co2_pct": 0.013
+    },
+    {
+        "rank": 136,
+        "country": "Mauritania",
+        "tahun": 2024,
+        "co2_emission_ton": 5011632,
+        "one_year_change_pct": 3.82,
+        "co2_per_capita_ton": 0.95,
+        "share_of_world_co2_pct": 0.013
+    },
+    {
+        "rank": 137,
+        "country": "New Caledonia",
+        "tahun": 2024,
+        "co2_emission_ton": 4998309,
+        "one_year_change_pct": 2.75,
+        "co2_per_capita_ton": 16.61,
+        "share_of_world_co2_pct": 0.013
+    },
+    {
+        "rank": 138,
+        "country": "Equatorial Guinea",
+        "tahun": 2024,
+        "co2_emission_ton": 4826905,
+        "one_year_change_pct": 1.3,
+        "co2_per_capita_ton": 3.03,
+        "share_of_world_co2_pct": 0.012
+    },
+    {
+        "rank": 139,
+        "country": "Malawi",
+        "tahun": 2024,
+        "co2_emission_ton": 4794948,
+        "one_year_change_pct": 1.92,
+        "co2_per_capita_ton": 0.21,
+        "share_of_world_co2_pct": 0.012
+    },
+    {
+        "rank": 140,
+        "country": "Madagascar",
+        "tahun": 2024,
+        "co2_emission_ton": 4682703,
+        "one_year_change_pct": 1.93,
+        "co2_per_capita_ton": 0.15,
+        "share_of_world_co2_pct": 0.012
+    },
+    {
+        "rank": 141,
+        "country": "Mauritius",
+        "tahun": 2024,
+        "co2_emission_ton": 4405467,
+        "one_year_change_pct": 1.92,
+        "co2_per_capita_ton": 3.44,
+        "share_of_world_co2_pct": 0.011
+    },
+    {
+        "rank": 142,
+        "country": "Albania",
+        "tahun": 2024,
+        "co2_emission_ton": 4243706,
+        "one_year_change_pct": 0.5,
+        "co2_per_capita_ton": 1.44,
+        "share_of_world_co2_pct": 0.011
+    },
+    {
+        "rank": 143,
+        "country": "Guyana",
+        "tahun": 2024,
+        "co2_emission_ton": 3788603,
+        "one_year_change_pct": 1.29,
+        "co2_per_capita_ton": 4.7,
+        "share_of_world_co2_pct": 0.0096
+    },
+    {
+        "rank": 144,
+        "country": "Namibia",
+        "tahun": 2024,
+        "co2_emission_ton": 3649815,
+        "one_year_change_pct": 1.0,
+        "co2_per_capita_ton": 1.25,
+        "share_of_world_co2_pct": 0.0092
+    },
+    {
+        "rank": 145,
+        "country": "Haiti",
+        "tahun": 2024,
+        "co2_emission_ton": 3513798,
+        "one_year_change_pct": 3.94,
+        "co2_per_capita_ton": 0.3,
+        "share_of_world_co2_pct": 0.0089
+    },
+    {
+        "rank": 146,
+        "country": "Iceland",
+        "tahun": 2024,
+        "co2_emission_ton": 3292971,
+        "one_year_change_pct": 2.27,
+        "co2_per_capita_ton": 9.33,
+        "share_of_world_co2_pct": 0.0083
+    },
+    {
+        "rank": 147,
+        "country": "Niger",
+        "tahun": 2024,
+        "co2_emission_ton": 3214248,
+        "one_year_change_pct": 1.62,
+        "co2_per_capita_ton": 0.11,
+        "share_of_world_co2_pct": 0.0081
+    },
+    {
+        "rank": 148,
+        "country": "Chad",
+        "tahun": 2024,
+        "co2_emission_ton": 2892773,
+        "one_year_change_pct": -0.55,
+        "co2_per_capita_ton": 0.16,
+        "share_of_world_co2_pct": 0.0073
+    },
+    {
+        "rank": 149,
+        "country": "Réunion",
+        "tahun": 2024,
+        "co2_emission_ton": 2672829,
+        "one_year_change_pct": 1.97,
+        "co2_per_capita_ton": 2.9,
+        "share_of_world_co2_pct": 0.0067
+    },
+    {
+        "rank": 150,
+        "country": "Togo",
+        "tahun": 2024,
+        "co2_emission_ton": 2627592,
+        "one_year_change_pct": 3.8,
+        "co2_per_capita_ton": 0.29,
+        "share_of_world_co2_pct": 0.0066
+    },
+    {
+        "rank": 151,
+        "country": "Suriname",
+        "tahun": 2024,
+        "co2_emission_ton": 2576452,
+        "one_year_change_pct": 3.22,
+        "co2_per_capita_ton": 4.33,
+        "share_of_world_co2_pct": 0.0065
+    },
+    {
+        "rank": 152,
+        "country": "Curaçao",
+        "tahun": 2024,
+        "co2_emission_ton": 2394239,
+        "one_year_change_pct": 3.72,
+        "co2_per_capita_ton": 14.34,
+        "share_of_world_co2_pct": 0.006
+    },
+    {
+        "rank": 153,
+        "country": "Rwanda",
+        "tahun": 2024,
+        "co2_emission_ton": 2311382,
+        "one_year_change_pct": 1.01,
+        "co2_per_capita_ton": 0.16,
+        "share_of_world_co2_pct": 0.0058
+    },
+    {
+        "rank": 154,
+        "country": "Maldives",
+        "tahun": 2024,
+        "co2_emission_ton": 1882382,
+        "one_year_change_pct": 4.92,
+        "co2_per_capita_ton": 3.89,
+        "share_of_world_co2_pct": 0.0047
+    },
+    {
+        "rank": 155,
+        "country": "Malta",
+        "tahun": 2024,
+        "co2_emission_ton": 1808332,
+        "one_year_change_pct": 1.15,
+        "co2_per_capita_ton": 4.13,
+        "share_of_world_co2_pct": 0.0046
+    },
+    {
+        "rank": 156,
+        "country": "Macao",
+        "tahun": 2024,
+        "co2_emission_ton": 1734885,
+        "one_year_change_pct": 3.24,
+        "co2_per_capita_ton": 2.51,
+        "share_of_world_co2_pct": 0.0044
+    },
+    {
+        "rank": 157,
+        "country": "Bhutan",
+        "tahun": 2024,
+        "co2_emission_ton": 1591896,
+        "one_year_change_pct": 2.0,
+        "co2_per_capita_ton": 1.83,
+        "share_of_world_co2_pct": 0.004
+    },
+    {
+        "rank": 158,
+        "country": "Fiji",
+        "tahun": 2024,
+        "co2_emission_ton": 1506671,
+        "one_year_change_pct": 4.79,
+        "co2_per_capita_ton": 1.59,
+        "share_of_world_co2_pct": 0.0038
+    },
+    {
+        "rank": 159,
+        "country": "Palau",
+        "tahun": 2024,
+        "co2_emission_ton": 1465894,
+        "one_year_change_pct": 4.86,
+        "co2_per_capita_ton": 63.73,
+        "share_of_world_co2_pct": 0.0037
+    },
+    {
+        "rank": 160,
+        "country": "Sierra Leone",
+        "tahun": 2024,
+        "co2_emission_ton": 1461784,
+        "one_year_change_pct": 3.64,
+        "co2_per_capita_ton": 0.17,
+        "share_of_world_co2_pct": 0.0037
+    },
+    {
+        "rank": 161,
+        "country": "Bahamas",
+        "tahun": 2024,
+        "co2_emission_ton": 1459225,
+        "one_year_change_pct": 3.5,
+        "co2_per_capita_ton": 3.47,
+        "share_of_world_co2_pct": 0.0037
+    },
+    {
+        "rank": 162,
+        "country": "Guadeloupe",
+        "tahun": 2024,
+        "co2_emission_ton": 1154955,
+        "one_year_change_pct": 3.36,
+        "co2_per_capita_ton": 2.58,
+        "share_of_world_co2_pct": 0.0029
+    },
+    {
+        "rank": 163,
+        "country": "Eswatini",
+        "tahun": 2024,
+        "co2_emission_ton": 1094137,
+        "one_year_change_pct": 1.46,
+        "co2_per_capita_ton": 0.71,
+        "share_of_world_co2_pct": 0.0028
+    },
+    {
+        "rank": 164,
+        "country": "Martinique",
+        "tahun": 2024,
+        "co2_emission_ton": 1078755,
+        "one_year_change_pct": 3.48,
+        "co2_per_capita_ton": 2.8,
+        "share_of_world_co2_pct": 0.0027
+    },
+    {
+        "rank": 165,
+        "country": "Lesotho",
+        "tahun": 2024,
+        "co2_emission_ton": 1000558,
+        "one_year_change_pct": 0.92,
+        "co2_per_capita_ton": 0.41,
+        "share_of_world_co2_pct": 0.0025
+    },
+    {
+        "rank": 166,
+        "country": "French Polynesia",
+        "tahun": 2024,
+        "co2_emission_ton": 973893,
+        "one_year_change_pct": 4.92,
+        "co2_per_capita_ton": 3.29,
+        "share_of_world_co2_pct": 0.0025
+    },
+    {
+        "rank": 167,
+        "country": "Burundi",
+        "tahun": 2024,
+        "co2_emission_ton": 968739,
+        "one_year_change_pct": 2.02,
+        "co2_per_capita_ton": 0.07,
+        "share_of_world_co2_pct": 0.0024
+    },
+    {
+        "rank": 168,
+        "country": "Djibouti",
+        "tahun": 2024,
+        "co2_emission_ton": 894666,
+        "one_year_change_pct": 1.67,
+        "co2_per_capita_ton": 0.85,
+        "share_of_world_co2_pct": 0.0023
+    },
+    {
+        "rank": 169,
+        "country": "Seychelles",
+        "tahun": 2024,
+        "co2_emission_ton": 878216,
+        "one_year_change_pct": 4.62,
+        "co2_per_capita_ton": 8.96,
+        "share_of_world_co2_pct": 0.0022
+    },
+    {
+        "rank": 170,
+        "country": "Liberia",
+        "tahun": 2024,
+        "co2_emission_ton": 867112,
+        "one_year_change_pct": 3.29,
+        "co2_per_capita_ton": 0.15,
+        "share_of_world_co2_pct": 0.0022
+    },
+    {
+        "rank": 171,
+        "country": "Somalia",
+        "tahun": 2024,
+        "co2_emission_ton": 865216,
+        "one_year_change_pct": 1.84,
+        "co2_per_capita_ton": 0.05,
+        "share_of_world_co2_pct": 0.0022
+    },
+    {
+        "rank": 172,
+        "country": "Eritrea",
+        "tahun": 2024,
+        "co2_emission_ton": 777977,
+        "one_year_change_pct": 1.8,
+        "co2_per_capita_ton": 0.13,
+        "share_of_world_co2_pct": 0.002
+    },
+    {
+        "rank": 173,
+        "country": "Barbados",
+        "tahun": 2024,
+        "co2_emission_ton": 712786,
+        "one_year_change_pct": 3.21,
+        "co2_per_capita_ton": 2.47,
+        "share_of_world_co2_pct": 0.0018
+    },
+    {
+        "rank": 174,
+        "country": "Timor-Leste",
+        "tahun": 2024,
+        "co2_emission_ton": 699446,
+        "one_year_change_pct": 5.27,
+        "co2_per_capita_ton": 0.47,
+        "share_of_world_co2_pct": 0.0018
+    },
+    {
+        "rank": 175,
+        "country": "Cabo Verde",
+        "tahun": 2024,
+        "co2_emission_ton": 676218,
+        "one_year_change_pct": 3.9,
+        "co2_per_capita_ton": 1.14,
+        "share_of_world_co2_pct": 0.0017
+    },
+    {
+        "rank": 176,
+        "country": "Gibraltar",
+        "tahun": 2024,
+        "co2_emission_ton": 635108,
+        "one_year_change_pct": 0.94,
+        "co2_per_capita_ton": 18.15,
+        "share_of_world_co2_pct": 0.0016
+    },
+    {
+        "rank": 177,
+        "country": "Greenland",
+        "tahun": 2024,
+        "co2_emission_ton": 594101,
+        "one_year_change_pct": 1.57,
+        "co2_per_capita_ton": 10.42,
+        "share_of_world_co2_pct": 0.0015
+    },
+    {
+        "rank": 178,
+        "country": "Aruba",
+        "tahun": 2024,
+        "co2_emission_ton": 555961,
+        "one_year_change_pct": 3.51,
+        "co2_per_capita_ton": 5.15,
+        "share_of_world_co2_pct": 0.0014
+    },
+    {
+        "rank": 179,
+        "country": "Gambia",
+        "tahun": 2024,
+        "co2_emission_ton": 492293,
+        "one_year_change_pct": 3.9,
+        "co2_per_capita_ton": 0.19,
+        "share_of_world_co2_pct": 0.0012
+    },
+    {
+        "rank": 180,
+        "country": "Comoros",
+        "tahun": 2024,
+        "co2_emission_ton": 446267,
+        "one_year_change_pct": 1.81,
+        "co2_per_capita_ton": 0.47,
+        "share_of_world_co2_pct": 0.0011
+    },
+    {
+        "rank": 181,
+        "country": "French Guiana",
+        "tahun": 2024,
+        "co2_emission_ton": 390985,
+        "one_year_change_pct": 1.8,
+        "co2_per_capita_ton": 1.17,
+        "share_of_world_co2_pct": 0.00099
+    },
+    {
+        "rank": 182,
+        "country": "Belize",
+        "tahun": 2024,
+        "co2_emission_ton": 388943,
+        "one_year_change_pct": 3.54,
+        "co2_per_capita_ton": 0.91,
+        "share_of_world_co2_pct": 0.00098
+    },
+    {
+        "rank": 183,
+        "country": "Cayman Islands",
+        "tahun": 2024,
+        "co2_emission_ton": 372018,
+        "one_year_change_pct": 3.52,
+        "co2_per_capita_ton": 5.55,
+        "share_of_world_co2_pct": 0.00094
+    },
+    {
+        "rank": 184,
+        "country": "Antigua and Barbuda",
+        "tahun": 2024,
+        "co2_emission_ton": 356187,
+        "one_year_change_pct": 3.51,
+        "co2_per_capita_ton": 3.24,
+        "share_of_world_co2_pct": 0.0009
+    },
+    {
+        "rank": 185,
+        "country": "Samoa",
+        "tahun": 2024,
+        "co2_emission_ton": 349758,
+        "one_year_change_pct": 4.93,
+        "co2_per_capita_ton": 1.71,
+        "share_of_world_co2_pct": 0.00088
+    },
+    {
+        "rank": 186,
+        "country": "Guinea-Bissau",
+        "tahun": 2024,
+        "co2_emission_ton": 342161,
+        "one_year_change_pct": 3.9,
+        "co2_per_capita_ton": 0.16,
+        "share_of_world_co2_pct": 0.00086
+    },
+    {
+        "rank": 187,
+        "country": "Central African Republic",
+        "tahun": 2024,
+        "co2_emission_ton": 337407,
+        "one_year_change_pct": 1.47,
+        "co2_per_capita_ton": 0.06,
+        "share_of_world_co2_pct": 0.00085
+    },
+    {
+        "rank": 188,
+        "country": "Solomon Islands",
+        "tahun": 2024,
+        "co2_emission_ton": 314545,
+        "one_year_change_pct": 4.91,
+        "co2_per_capita_ton": 0.45,
+        "share_of_world_co2_pct": 0.00079
+    },
+    {
+        "rank": 189,
+        "country": "Saint Lucia",
+        "tahun": 2024,
+        "co2_emission_ton": 307460,
+        "one_year_change_pct": 3.52,
+        "co2_per_capita_ton": 1.68,
+        "share_of_world_co2_pct": 0.00078
+    },
+    {
+        "rank": 190,
+        "country": "Western Sahara",
+        "tahun": 2024,
+        "co2_emission_ton": 301175,
+        "one_year_change_pct": 5.0,
+        "co2_per_capita_ton": 0.46,
+        "share_of_world_co2_pct": 0.00076
+    },
+    {
+        "rank": 191,
+        "country": "Vanuatu",
+        "tahun": 2024,
+        "co2_emission_ton": 285107,
+        "one_year_change_pct": 4.93,
+        "co2_per_capita_ton": 0.9,
+        "share_of_world_co2_pct": 0.00072
+    },
+    {
+        "rank": 192,
+        "country": "Bermuda",
+        "tahun": 2024,
+        "co2_emission_ton": 267316,
+        "one_year_change_pct": 3.49,
+        "co2_per_capita_ton": 4.46,
+        "share_of_world_co2_pct": 0.00067
+    },
+    {
+        "rank": 193,
+        "country": "Turks and Caicos",
+        "tahun": 2024,
+        "co2_emission_ton": 229061,
+        "one_year_change_pct": 3.53,
+        "co2_per_capita_ton": 5.87,
+        "share_of_world_co2_pct": 0.00058
+    },
+    {
+        "rank": 194,
+        "country": "Grenada",
+        "tahun": 2024,
+        "co2_emission_ton": 175909,
+        "one_year_change_pct": 3.51,
+        "co2_per_capita_ton": 1.58,
+        "share_of_world_co2_pct": 0.00044
+    },
+    {
+        "rank": 195,
+        "country": "Tonga",
+        "tahun": 2024,
+        "co2_emission_ton": 169794,
+        "one_year_change_pct": 4.92,
+        "co2_per_capita_ton": 1.48,
+        "share_of_world_co2_pct": 0.00043
+    },
+    {
+        "rank": 196,
+        "country": "Sao Tome & Principe",
+        "tahun": 2024,
+        "co2_emission_ton": 147722,
+        "one_year_change_pct": 1.43,
+        "co2_per_capita_ton": 0.62,
+        "share_of_world_co2_pct": 0.00037
+    },
+    {
+        "rank": 197,
+        "country": "Saint Kitts & Nevis",
+        "tahun": 2024,
+        "co2_emission_ton": 135120,
+        "one_year_change_pct": 3.51,
+        "co2_per_capita_ton": 2.33,
+        "share_of_world_co2_pct": 0.00034
+    },
+    {
+        "rank": 198,
+        "country": "St. Vincent & Grenadines",
+        "tahun": 2024,
+        "co2_emission_ton": 131984,
+        "one_year_change_pct": 3.5,
+        "co2_per_capita_ton": 1.19,
+        "share_of_world_co2_pct": 0.00033
+    },
+    {
+        "rank": 199,
+        "country": "Cook Islands",
+        "tahun": 2024,
+        "co2_emission_ton": 100488,
+        "one_year_change_pct": 4.92,
+        "co2_per_capita_ton": 5.91,
+        "share_of_world_co2_pct": 0.00025
+    },
+    {
+        "rank": 200,
+        "country": "British Virgin Islands",
+        "tahun": 2024,
+        "co2_emission_ton": 91810,
+        "one_year_change_pct": 3.51,
+        "co2_per_capita_ton": 2.7,
+        "share_of_world_co2_pct": 0.00023
+    },
+    {
+        "rank": 201,
+        "country": "Dominica",
+        "tahun": 2024,
+        "co2_emission_ton": 84250,
+        "one_year_change_pct": 3.45,
+        "co2_per_capita_ton": 1.11,
+        "share_of_world_co2_pct": 0.00021
+    },
+    {
+        "rank": 202,
+        "country": "Kiribati",
+        "tahun": 2024,
+        "co2_emission_ton": 79693,
+        "one_year_change_pct": 4.92,
+        "co2_per_capita_ton": 0.61,
+        "share_of_world_co2_pct": 0.0002
+    },
+    {
+        "rank": 203,
+        "country": "Saint Pierre & Miquelon",
+        "tahun": 2024,
+        "co2_emission_ton": 28653,
+        "one_year_change_pct": -0.39,
+        "co2_per_capita_ton": 4.09,
+        "share_of_world_co2_pct": 7.2e-05
+    },
+    {
+        "rank": 204,
+        "country": "Anguilla",
+        "tahun": 2024,
+        "co2_emission_ton": 22769,
+        "one_year_change_pct": 3.88,
+        "co2_per_capita_ton": 1.42,
+        "share_of_world_co2_pct": 5.7e-05
+    },
+    {
+        "rank": 205,
+        "country": "Falkland Islands",
+        "tahun": 2024,
+        "co2_emission_ton": 18800,
+        "one_year_change_pct": 1.82,
+        "co2_per_capita_ton": 6.27,
+        "share_of_world_co2_pct": 4.7e-05
+    },
+    {
+        "rank": 206,
+        "country": "Saint Helena",
+        "tahun": 2024,
+        "co2_emission_ton": 17573,
+        "one_year_change_pct": 1.34,
+        "co2_per_capita_ton": 4.39,
+        "share_of_world_co2_pct": 4.4e-05
+    },
+    {
+        "rank": 207,
+        "country": "Faeroe Islands",
+        "tahun": 2024,
+        "co2_emission_ton": 2139,
+        "one_year_change_pct": 0.66,
+        "co2_per_capita_ton": 0.04,
+        "share_of_world_co2_pct": 5.4e-06
+    }
+]
