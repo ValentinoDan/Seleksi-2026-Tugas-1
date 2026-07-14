@@ -40,7 +40,7 @@ def remove_sign_float(text):
     
 # ambil negara pertama aja (ada beberapa kasus pada suatu rank memiliki beberapa negara)
 def get_country(cell):
-    link = cell.find('a', title=True)
+    link = cell.find('a')
     if link:
-        return link['title']
+        return link.get_text(strip=True)
     return cell.get_text(strip=True)
