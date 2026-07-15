@@ -50,4 +50,3 @@ gdp_cleaned = [clean_gdp(d) for d in gdp_data]
 
 with open(os.path.join("Data Scraping", "data", "gdp.json"), "w", encoding="utf-8") as f:
     json.dump(gdp_cleaned, f, indent=4, ensure_ascii=False)
-
