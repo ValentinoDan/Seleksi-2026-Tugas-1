@@ -1,7 +1,7 @@
 from utils import fetch, remove_sign, remove_pct, remove_sign_float, get_country
 import json, os, re, time
 
-# ambil data energi tiap baris
+# ambil data energi dan url
 def parse_energy(row):
     cells = row.find_all(['th', 'td'])
     if len(cells) < 5: # min 5 col
@@ -24,6 +24,7 @@ def parse_energy(row):
         "per_capita": per_capita
     }
 
+# ambil detail energi tiap negara
 def parse_energy_detail(soup):
     result = {k: None for k in [
         'oil_btu', 'oil_pct', 'gas_btu', 'gas_pct', 'coal_btu', 'coal_pct',

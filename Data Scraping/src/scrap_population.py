@@ -1,7 +1,7 @@
 from utils import fetch, remove_sign, remove_pct, remove_sign_float, get_country    
 import json, os, time
 
-# ambil data populasi tiap baris
+# ambil nama negara dan url
 def parse_population(row):
     cells = row.find_all(['th', 'td'])
     if len(cells) < 12: # min 12 col
@@ -16,9 +16,10 @@ def parse_population(row):
         "rank": rank,
         "country": country,
         "tahun": 2024,
-        "url": url,
+        "url": url
     }
 
+# ambil data populasi tiap negara
 def parse_population_country(row):
     cells = row.find_all(['th', 'td'])
     if len(cells) < 13: # min 13 col

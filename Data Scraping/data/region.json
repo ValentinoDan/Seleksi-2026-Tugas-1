@@ -1,0 +1,938 @@
+[
+    {
+        "country": "India",
+        "region": "Asia"
+    },
+    {
+        "country": "China",
+        "region": "Asia"
+    },
+    {
+        "country": "Indonesia",
+        "region": "Asia"
+    },
+    {
+        "country": "Pakistan",
+        "region": "Asia"
+    },
+    {
+        "country": "Bangladesh",
+        "region": "Asia"
+    },
+    {
+        "country": "Japan",
+        "region": "Asia"
+    },
+    {
+        "country": "Philippines",
+        "region": "Asia"
+    },
+    {
+        "country": "Vietnam",
+        "region": "Asia"
+    },
+    {
+        "country": "Iran",
+        "region": "Asia"
+    },
+    {
+        "country": "Turkey",
+        "region": "Asia"
+    },
+    {
+        "country": "Thailand",
+        "region": "Asia"
+    },
+    {
+        "country": "Myanmar",
+        "region": "Asia"
+    },
+    {
+        "country": "South Korea",
+        "region": "Asia"
+    },
+    {
+        "country": "Iraq",
+        "region": "Asia"
+    },
+    {
+        "country": "Afghanistan",
+        "region": "Asia"
+    },
+    {
+        "country": "Yemen",
+        "region": "Asia"
+    },
+    {
+        "country": "Uzbekistan",
+        "region": "Asia"
+    },
+    {
+        "country": "Malaysia",
+        "region": "Asia"
+    },
+    {
+        "country": "Saudi Arabia",
+        "region": "Asia"
+    },
+    {
+        "country": "Nepal",
+        "region": "Asia"
+    },
+    {
+        "country": "North Korea",
+        "region": "Asia"
+    },
+    {
+        "country": "Syria",
+        "region": "Asia"
+    },
+    {
+        "country": "Sri Lanka",
+        "region": "Asia"
+    },
+    {
+        "country": "Taiwan",
+        "region": "Asia"
+    },
+    {
+        "country": "Kazakhstan",
+        "region": "Asia"
+    },
+    {
+        "country": "Cambodia",
+        "region": "Asia"
+    },
+    {
+        "country": "Jordan",
+        "region": "Asia"
+    },
+    {
+        "country": "United Arab Emirates",
+        "region": "Asia"
+    },
+    {
+        "country": "Tajikistan",
+        "region": "Asia"
+    },
+    {
+        "country": "Azerbaijan",
+        "region": "Asia"
+    },
+    {
+        "country": "Israel",
+        "region": "Asia"
+    },
+    {
+        "country": "Laos",
+        "region": "Asia"
+    },
+    {
+        "country": "Turkmenistan",
+        "region": "Asia"
+    },
+    {
+        "country": "Kyrgyzstan",
+        "region": "Asia"
+    },
+    {
+        "country": "Hong Kong",
+        "region": "Asia"
+    },
+    {
+        "country": "Singapore",
+        "region": "Asia"
+    },
+    {
+        "country": "Lebanon",
+        "region": "Asia"
+    },
+    {
+        "country": "State of Palestine",
+        "region": "Asia"
+    },
+    {
+        "country": "Oman",
+        "region": "Asia"
+    },
+    {
+        "country": "Kuwait",
+        "region": "Asia"
+    },
+    {
+        "country": "Georgia",
+        "region": "Asia"
+    },
+    {
+        "country": "Mongolia",
+        "region": "Asia"
+    },
+    {
+        "country": "Qatar",
+        "region": "Asia"
+    },
+    {
+        "country": "Armenia",
+        "region": "Asia"
+    },
+    {
+        "country": "Bahrain",
+        "region": "Asia"
+    },
+    {
+        "country": "Timor-Leste",
+        "region": "Asia"
+    },
+    {
+        "country": "Cyprus",
+        "region": "Asia"
+    },
+    {
+        "country": "Bhutan",
+        "region": "Asia"
+    },
+    {
+        "country": "Macao",
+        "region": "Asia"
+    },
+    {
+        "country": "Maldives",
+        "region": "Asia"
+    },
+    {
+        "country": "Brunei",
+        "region": "Asia"
+    },
+    {
+        "country": "Nigeria",
+        "region": "Africa"
+    },
+    {
+        "country": "Ethiopia",
+        "region": "Africa"
+    },
+    {
+        "country": "Egypt",
+        "region": "Africa"
+    },
+    {
+        "country": "DR Congo",
+        "region": "Africa"
+    },
+    {
+        "country": "Tanzania",
+        "region": "Africa"
+    },
+    {
+        "country": "South Africa",
+        "region": "Africa"
+    },
+    {
+        "country": "Kenya",
+        "region": "Africa"
+    },
+    {
+        "country": "Sudan",
+        "region": "Africa"
+    },
+    {
+        "country": "Uganda",
+        "region": "Africa"
+    },
+    {
+        "country": "Algeria",
+        "region": "Africa"
+    },
+    {
+        "country": "Angola",
+        "region": "Africa"
+    },
+    {
+        "country": "Morocco",
+        "region": "Africa"
+    },
+    {
+        "country": "Mozambique",
+        "region": "Africa"
+    },
+    {
+        "country": "Ghana",
+        "region": "Africa"
+    },
+    {
+        "country": "Madagascar",
+        "region": "Africa"
+    },
+    {
+        "country": "Côte d'Ivoire",
+        "region": "Africa"
+    },
+    {
+        "country": "Cameroon",
+        "region": "Africa"
+    },
+    {
+        "country": "Niger",
+        "region": "Africa"
+    },
+    {
+        "country": "Mali",
+        "region": "Africa"
+    },
+    {
+        "country": "Burkina Faso",
+        "region": "Africa"
+    },
+    {
+        "country": "Malawi",
+        "region": "Africa"
+    },
+    {
+        "country": "Zambia",
+        "region": "Africa"
+    },
+    {
+        "country": "Chad",
+        "region": "Africa"
+    },
+    {
+        "country": "Somalia",
+        "region": "Africa"
+    },
+    {
+        "country": "Senegal",
+        "region": "Africa"
+    },
+    {
+        "country": "Zimbabwe",
+        "region": "Africa"
+    },
+    {
+        "country": "Guinea",
+        "region": "Africa"
+    },
+    {
+        "country": "Benin",
+        "region": "Africa"
+    },
+    {
+        "country": "Rwanda",
+        "region": "Africa"
+    },
+    {
+        "country": "Burundi",
+        "region": "Africa"
+    },
+    {
+        "country": "South Sudan",
+        "region": "Africa"
+    },
+    {
+        "country": "Tunisia",
+        "region": "Africa"
+    },
+    {
+        "country": "Togo",
+        "region": "Africa"
+    },
+    {
+        "country": "Sierra Leone",
+        "region": "Africa"
+    },
+    {
+        "country": "Libya",
+        "region": "Africa"
+    },
+    {
+        "country": "Congo",
+        "region": "Africa"
+    },
+    {
+        "country": "Liberia",
+        "region": "Africa"
+    },
+    {
+        "country": "Central African Republic",
+        "region": "Africa"
+    },
+    {
+        "country": "Mauritania",
+        "region": "Africa"
+    },
+    {
+        "country": "Eritrea",
+        "region": "Africa"
+    },
+    {
+        "country": "Namibia",
+        "region": "Africa"
+    },
+    {
+        "country": "Gambia",
+        "region": "Africa"
+    },
+    {
+        "country": "Gabon",
+        "region": "Africa"
+    },
+    {
+        "country": "Botswana",
+        "region": "Africa"
+    },
+    {
+        "country": "Lesotho",
+        "region": "Africa"
+    },
+    {
+        "country": "Guinea-Bissau",
+        "region": "Africa"
+    },
+    {
+        "country": "Equatorial Guinea",
+        "region": "Africa"
+    },
+    {
+        "country": "Eswatini",
+        "region": "Africa"
+    },
+    {
+        "country": "Mauritius",
+        "region": "Africa"
+    },
+    {
+        "country": "Djibouti",
+        "region": "Africa"
+    },
+    {
+        "country": "Comoros",
+        "region": "Africa"
+    },
+    {
+        "country": "Réunion",
+        "region": "Africa"
+    },
+    {
+        "country": "Western Sahara",
+        "region": "Africa"
+    },
+    {
+        "country": "Cabo Verde",
+        "region": "Africa"
+    },
+    {
+        "country": "Mayotte",
+        "region": "Africa"
+    },
+    {
+        "country": "Sao Tome & Principe",
+        "region": "Africa"
+    },
+    {
+        "country": "Seychelles",
+        "region": "Africa"
+    },
+    {
+        "country": "Saint Helena",
+        "region": "Africa"
+    },
+    {
+        "country": "Russia",
+        "region": "Europe"
+    },
+    {
+        "country": "Germany",
+        "region": "Europe"
+    },
+    {
+        "country": "United Kingdom",
+        "region": "Europe"
+    },
+    {
+        "country": "France",
+        "region": "Europe"
+    },
+    {
+        "country": "Italy",
+        "region": "Europe"
+    },
+    {
+        "country": "Spain",
+        "region": "Europe"
+    },
+    {
+        "country": "Ukraine",
+        "region": "Europe"
+    },
+    {
+        "country": "Poland",
+        "region": "Europe"
+    },
+    {
+        "country": "Romania",
+        "region": "Europe"
+    },
+    {
+        "country": "Netherlands",
+        "region": "Europe"
+    },
+    {
+        "country": "Belgium",
+        "region": "Europe"
+    },
+    {
+        "country": "Sweden",
+        "region": "Europe"
+    },
+    {
+        "country": "Czech Republic (Czechia)",
+        "region": "Europe"
+    },
+    {
+        "country": "Portugal",
+        "region": "Europe"
+    },
+    {
+        "country": "Greece",
+        "region": "Europe"
+    },
+    {
+        "country": "Hungary",
+        "region": "Europe"
+    },
+    {
+        "country": "Austria",
+        "region": "Europe"
+    },
+    {
+        "country": "Switzerland",
+        "region": "Europe"
+    },
+    {
+        "country": "Belarus",
+        "region": "Europe"
+    },
+    {
+        "country": "Bulgaria",
+        "region": "Europe"
+    },
+    {
+        "country": "Serbia",
+        "region": "Europe"
+    },
+    {
+        "country": "Denmark",
+        "region": "Europe"
+    },
+    {
+        "country": "Norway",
+        "region": "Europe"
+    },
+    {
+        "country": "Finland",
+        "region": "Europe"
+    },
+    {
+        "country": "Slovakia",
+        "region": "Europe"
+    },
+    {
+        "country": "Ireland",
+        "region": "Europe"
+    },
+    {
+        "country": "Croatia",
+        "region": "Europe"
+    },
+    {
+        "country": "Bosnia and Herzegovina",
+        "region": "Europe"
+    },
+    {
+        "country": "Moldova",
+        "region": "Europe"
+    },
+    {
+        "country": "Lithuania",
+        "region": "Europe"
+    },
+    {
+        "country": "Albania",
+        "region": "Europe"
+    },
+    {
+        "country": "Slovenia",
+        "region": "Europe"
+    },
+    {
+        "country": "Latvia",
+        "region": "Europe"
+    },
+    {
+        "country": "North Macedonia",
+        "region": "Europe"
+    },
+    {
+        "country": "Estonia",
+        "region": "Europe"
+    },
+    {
+        "country": "Luxembourg",
+        "region": "Europe"
+    },
+    {
+        "country": "Montenegro",
+        "region": "Europe"
+    },
+    {
+        "country": "Malta",
+        "region": "Europe"
+    },
+    {
+        "country": "Iceland",
+        "region": "Europe"
+    },
+    {
+        "country": "Isle of Man",
+        "region": "Europe"
+    },
+    {
+        "country": "Andorra",
+        "region": "Europe"
+    },
+    {
+        "country": "Faeroe Islands",
+        "region": "Europe"
+    },
+    {
+        "country": "Gibraltar",
+        "region": "Europe"
+    },
+    {
+        "country": "Liechtenstein",
+        "region": "Europe"
+    },
+    {
+        "country": "Monaco",
+        "region": "Europe"
+    },
+    {
+        "country": "San Marino",
+        "region": "Europe"
+    },
+    {
+        "country": "Holy See",
+        "region": "Europe"
+    },
+    {
+        "country": "Brazil",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Mexico",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Colombia",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Argentina",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Peru",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Venezuela",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Chile",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Guatemala",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Ecuador",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Bolivia",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Haiti",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Dominican Republic",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Honduras",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Cuba",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Nicaragua",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Paraguay",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "El Salvador",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Costa Rica",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Panama",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Uruguay",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Puerto Rico",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Jamaica",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Trinidad and Tobago",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Guyana",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Suriname",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Belize",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Bahamas",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Guadeloupe",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Martinique",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "French Guiana",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Barbados",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Curaçao",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Saint Lucia",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Grenada",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Aruba",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "St. Vincent & Grenadines",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Antigua and Barbuda",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "U.S. Virgin Islands",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Cayman Islands",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Dominica",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Turks and Caicos",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Saint Kitts & Nevis",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Sint Maarten",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "British Virgin Islands",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Caribbean Netherlands",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Saint Martin",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Anguilla",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Saint Barthelemy",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Montserrat",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "Falkland Islands",
+        "region": "Latin America and the Caribbean"
+    },
+    {
+        "country": "United States",
+        "region": "Northern America"
+    },
+    {
+        "country": "Canada",
+        "region": "Northern America"
+    },
+    {
+        "country": "Bermuda",
+        "region": "Northern America"
+    },
+    {
+        "country": "Greenland",
+        "region": "Northern America"
+    },
+    {
+        "country": "Saint Pierre & Miquelon",
+        "region": "Northern America"
+    },
+    {
+        "country": "Australia",
+        "region": "Oceania"
+    },
+    {
+        "country": "Papua New Guinea",
+        "region": "Oceania"
+    },
+    {
+        "country": "New Zealand",
+        "region": "Oceania"
+    },
+    {
+        "country": "Fiji",
+        "region": "Oceania"
+    },
+    {
+        "country": "Solomon Islands",
+        "region": "Oceania"
+    },
+    {
+        "country": "Vanuatu",
+        "region": "Oceania"
+    },
+    {
+        "country": "New Caledonia",
+        "region": "Oceania"
+    },
+    {
+        "country": "French Polynesia",
+        "region": "Oceania"
+    },
+    {
+        "country": "Samoa",
+        "region": "Oceania"
+    },
+    {
+        "country": "Guam",
+        "region": "Oceania"
+    },
+    {
+        "country": "Kiribati",
+        "region": "Oceania"
+    },
+    {
+        "country": "Micronesia",
+        "region": "Oceania"
+    },
+    {
+        "country": "Tonga",
+        "region": "Oceania"
+    },
+    {
+        "country": "American Samoa",
+        "region": "Oceania"
+    },
+    {
+        "country": "Northern Mariana Islands",
+        "region": "Oceania"
+    },
+    {
+        "country": "Marshall Islands",
+        "region": "Oceania"
+    },
+    {
+        "country": "Palau",
+        "region": "Oceania"
+    },
+    {
+        "country": "Cook Islands",
+        "region": "Oceania"
+    },
+    {
+        "country": "Nauru",
+        "region": "Oceania"
+    },
+    {
+        "country": "Wallis & Futuna",
+        "region": "Oceania"
+    },
+    {
+        "country": "Tuvalu",
+        "region": "Oceania"
+    },
+    {
+        "country": "Tokelau",
+        "region": "Oceania"
+    },
+    {
+        "country": "Niue",
+        "region": "Oceania"
+    }
+]
