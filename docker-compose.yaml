@@ -1,0 +1,12 @@
+services:
+  mariadb:
+    build: .
+    container_name: Lab_Basdat
+    restart: unless-stopped
+    ports:
+      - "3307:3306"
+    volumes:
+      - tubes_basdat:/var/lib/mysql
+
+volumes:
+  tubes_basdat:
