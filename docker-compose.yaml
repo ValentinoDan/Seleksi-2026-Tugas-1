@@ -1,7 +1,7 @@
 services:
   mariadb:
     build: .
-    container_name: Lab_Basdat
+    container_name: Basdat
     restart: unless-stopped
     ports:
       - "3307:3306"

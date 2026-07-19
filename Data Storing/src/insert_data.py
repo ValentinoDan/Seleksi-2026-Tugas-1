@@ -6,7 +6,7 @@ conn = mysql.connector.connect(
     port=3307,
     user="Basdat",
     password="Basdat",
-    database="IndikatorNegara"
+    database="InitIndikator"
 )
 cur = conn.cursor()
 
@@ -139,4 +139,4 @@ print(f"Komposisi Energi: {count} baris berhasil")
 conn.commit()
 cur.close()
 conn.close()
-print("Data berhasil dimasukkan ke database IndikatorNegara")
+print("Data berhasil dimasukkan ke database InitIndikator")
