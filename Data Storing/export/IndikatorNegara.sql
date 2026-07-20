@@ -1,7 +1,7 @@
 /*M!999999\- enable the sandbox mode */ 
 -- MariaDB dump 10.19-12.3.2-MariaDB, for debian-linux-gnu (x86_64)
 --
--- Host: localhost    Database: InitIndikator
+-- Host: localhost    Database: Data_Storing
 -- ------------------------------------------------------
 -- Server version	12.3.2-MariaDB-ubu2404
 
@@ -16,14 +16,14 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*M!100616 SET @OLD_NOTE_VERBOSITY=@@NOTE_VERBOSITY, NOTE_VERBOSITY=0 */;
 
+CREATE DATABASE IF NOT EXISTS `Data_Storing`;
+GRANT ALL PRIVILEGES ON `Data_Storing`.* TO 'Basdat'@'%';
+FLUSH PRIVILEGES;
+USE `Data_Storing`;
+
 --
 -- Table structure for table `Benua`
 --
-
-CREATE DATABASE IF NOT EXISTS `IndikatorNegara`;
-GRANT ALL PRIVILEGES ON `IndikatorNegara`.* TO 'Basdat'@'%';
-FLUSH PRIVILEGES;
-USE `IndikatorNegara`;
 
 DROP TABLE IF EXISTS `Benua`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
