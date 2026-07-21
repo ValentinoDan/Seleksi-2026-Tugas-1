@@ -3,6 +3,7 @@ services:
     build: .
     container_name: Basdat
     restart: unless-stopped
+    command: --event-scheduler=ON
     ports:
       - "3307:3306"
     volumes:

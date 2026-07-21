@@ -1,7 +1,5 @@
 USE Data_Warehouse;
 
-SET GLOBAL event_scheduler = ON;
-
 DROP EVENT IF EXISTS sync_data;
 
 DELIMITER //
