@@ -76,7 +76,7 @@ CREATE TABLE Indikator_CO2 (
     tahun SMALLINT,
     emisi_co2 BIGINT CHECK (emisi_co2 >= 0),
     persentase_perubahan_setahun DECIMAL(5, 2),
-    emisi_co2_per_kapita DECIMAL(5, 2) CHECK (emisi_co2_per_kapita >= 0),
+    emisi_co2_per_capita DECIMAL(5, 2) CHECK (emisi_co2_per_capita >= 0),
     persentase_emisi_co2_dunia DECIMAL(10, 7) CHECK (persentase_emisi_co2_dunia BETWEEN 0 AND 100),
     rank_co2 SMALLINT CHECK (rank_co2 > 0),
     PRIMARY KEY (id_negara, tahun),
@@ -436,7 +436,7 @@ CREATE PROCEDURE insert_co2(
     IN p_tahun SMALLINT,
     IN p_emisi_co2 BIGINT,
     IN p_persen_perubahan DECIMAL(5, 2),
-    IN p_co2_per_kapita DECIMAL(5, 2),
+    IN p_co2_per_capita DECIMAL(5, 2),
     IN p_persen_dunia DECIMAL(5, 2)
 )
 BEGIN
@@ -456,10 +456,10 @@ BEGIN
     -- insert data baru dengan rank yang sesuai
     INSERT INTO Indikator_CO2 (
         id_negara, tahun, emisi_co2, persentase_perubahan_setahun,
-        emisi_co2_per_kapita, persentase_emisi_co2_dunia, rank_co2
+        emisi_co2_per_capita, persentase_emisi_co2_dunia, rank_co2
     ) VALUES (
         p_id_negara, p_tahun, p_emisi_co2, p_persen_perubahan,
-        p_co2_per_kapita, p_persen_dunia, new_rank
+        p_co2_per_capita, p_persen_dunia, new_rank
     );
 END //
 
@@ -494,18 +494,18 @@ CREATE PROCEDURE update_co2(
     IN p_tahun SMALLINT,
     IN p_emisi_co2 BIGINT,
     IN p_persen_perubahan DECIMAL(5, 2),
-    IN p_co2_per_kapita DECIMAL(5, 2),
+    IN p_co2_per_capita DECIMAL(5, 2),
     IN p_persen_dunia DECIMAL(5, 2)
 )
 BEGIN
     -- ambil data lama dari indikator CO2
     DECLARE emisi BIGINT;
     DECLARE persen_perubahan DECIMAL(5, 2);
-    DECLARE co2_per_kapita DECIMAL(5, 2);
+    DECLARE co2_per_capita DECIMAL(5, 2);
     DECLARE persen_dunia DECIMAL(5, 2);
 
-    SELECT emisi_co2, persentase_perubahan_setahun, emisi_co2_per_kapita, persentase_emisi_co2_dunia
-    INTO emisi, persen_perubahan, co2_per_kapita, persen_dunia
+    SELECT emisi_co2, persentase_perubahan_setahun, emisi_co2_per_capita, persentase_emisi_co2_dunia
+    INTO emisi, persen_perubahan, co2_per_capita, persen_dunia
     FROM Indikator_CO2
     WHERE id_negara = p_id_negara AND tahun = p_tahun;
 
@@ -514,17 +514,17 @@ BEGIN
         -- pake data baru jika ada, kalo ga pake data lama
         SET emisi = COALESCE(p_emisi_co2, emisi);
         SET persen_perubahan = COALESCE(p_persen_perubahan, persen_perubahan);
-        SET co2_per_kapita = COALESCE(p_co2_per_kapita, co2_per_kapita);
+        SET co2_per_capita = COALESCE(p_co2_per_capita, co2_per_capita);
         SET persen_dunia = COALESCE(p_persen_dunia, persen_dunia);
 
         -- delete dulu
         CALL delete_co2(p_id_negara, p_tahun);
 
         -- insert lagi pake data baru
-        CALL insert_co2(p_id_negara, p_tahun, emisi, persen_perubahan, co2_per_kapita, persen_dunia);
+        CALL insert_co2(p_id_negara, p_tahun, emisi, persen_perubahan, co2_per_capita, persen_dunia);
     ELSE
         IF p_emisi_co2 IS NOT NULL THEN
-            CALL insert_co2(p_id_negara, p_tahun, p_emisi_co2, p_persen_perubahan, p_co2_per_kapita, p_persen_dunia);
+            CALL insert_co2(p_id_negara, p_tahun, p_emisi_co2, p_persen_perubahan, p_co2_per_capita, p_persen_dunia);
         END IF;
     END IF;
 END //
@@ -534,7 +534,7 @@ CREATE PROCEDURE insert_energi(
     IN p_tahun SMALLINT,
     IN p_konsumsi_total BIGINT,
     IN p_persen_dunia DECIMAL(5, 2),
-    IN p_konsumsi_per_kapita INT
+    IN p_konsumsi_per_capita INT
 )
 BEGIN
     DECLARE new_rank SMALLINT;
@@ -556,7 +556,7 @@ BEGIN
         konsumsi_per_capita, rank_energi
     ) VALUES (
         p_id_negara, p_tahun, p_konsumsi_total, p_persen_dunia,
-        p_konsumsi_per_kapita, new_rank
+        p_konsumsi_per_capita, new_rank
     );
 END //
 
@@ -591,16 +591,16 @@ CREATE PROCEDURE update_energi(
     IN p_tahun SMALLINT,
     IN p_konsumsi_total BIGINT,
     IN p_persen_dunia DECIMAL(5, 2),
-    IN p_konsumsi_per_kapita INT
+    IN p_konsumsi_per_capita INT
 )
 BEGIN
     DECLARE konsumsi BIGINT;
     DECLARE persen_dunia DECIMAL(5, 2);
-    DECLARE per_kapita INT;
+    DECLARE per_capita INT;
 
     -- ambil data lama dari indikator energi
     SELECT konsumsi_energi_total, persentase_dunia, konsumsi_per_capita
-    INTO konsumsi, persen_dunia, per_kapita
+    INTO konsumsi, persen_dunia, per_capita
     FROM Indikator_Energi
     WHERE id_negara = p_id_negara AND tahun = p_tahun;
 
@@ -609,16 +609,16 @@ BEGIN
         -- pake data baru jika ada, kalo ga pake data lama
         SET konsumsi = COALESCE(p_konsumsi_total, konsumsi);
         SET persen_dunia = COALESCE(p_persen_dunia, persen_dunia);
-        SET per_kapita = COALESCE(p_konsumsi_per_kapita, per_kapita);
+        SET per_capita = COALESCE(p_konsumsi_per_capita, per_capita);
 
         -- delete dulu
         CALL delete_energi(p_id_negara, p_tahun);
 
         -- insert lagi pake data baru
-        CALL insert_energi(p_id_negara, p_tahun, konsumsi, persen_dunia, per_kapita);
+        CALL insert_energi(p_id_negara, p_tahun, konsumsi, persen_dunia, per_capita);
     ELSE
         IF p_konsumsi_total IS NOT NULL THEN
-            CALL insert_energi(p_id_negara, p_tahun, p_konsumsi_total, p_persen_dunia, p_konsumsi_per_kapita);
+            CALL insert_energi(p_id_negara, p_tahun, p_konsumsi_total, p_persen_dunia, p_konsumsi_per_capita);
         END IF;
     END IF;
 END //

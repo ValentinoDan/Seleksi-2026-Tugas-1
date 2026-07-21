@@ -16,11 +16,6 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*M!100616 SET @OLD_NOTE_VERBOSITY=@@NOTE_VERBOSITY, NOTE_VERBOSITY=0 */;
 
-CREATE DATABASE IF NOT EXISTS `Data_Storing`;
-GRANT ALL PRIVILEGES ON `Data_Storing`.* TO 'Basdat'@'%';
-FLUSH PRIVILEGES;
-USE `Data_Storing`;
-
 --
 -- Table structure for table `Benua`
 --
@@ -67,7 +62,7 @@ CREATE TABLE `Indikator_CO2` (
   `tahun` smallint(6) NOT NULL,
   `emisi_co2` bigint(20) DEFAULT NULL CHECK (`emisi_co2` >= 0),
   `persentase_perubahan_setahun` decimal(5,2) DEFAULT NULL,
-  `emisi_co2_per_kapita` decimal(5,2) DEFAULT NULL CHECK (`emisi_co2_per_kapita` >= 0),
+  `emisi_co2_per_capita` decimal(5,2) DEFAULT NULL CHECK (`emisi_co2_per_capita` >= 0),
   `persentase_emisi_co2_dunia` decimal(10,7) DEFAULT NULL CHECK (`persentase_emisi_co2_dunia` between 0 and 100),
   `rank_co2` smallint(6) DEFAULT NULL CHECK (`rank_co2` > 0),
   PRIMARY KEY (`id_negara`,`tahun`),
@@ -2286,6 +2281,641 @@ INSERT INTO `Tahun` VALUES
 UNLOCK TABLES;
 COMMIT;
 SET AUTOCOMMIT=@OLD_AUTOCOMMIT;
+
+--
+-- Dumping routines for database 'Data_Storing'
+--
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `count_total_energi` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8mb4 */ ;
+/*!50003 SET character_set_results = utf8mb4 */ ;
+/*!50003 SET collation_connection  = utf8mb4_uca1400_ai_ci */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `count_total_energi`(
+    IN p_id_negara SMALLINT,
+    IN p_tahun SMALLINT
+)
+BEGIN
+    DECLARE total BIGINT;
+    SELECT COALESCE(SUM(jumlah_komposisi), 0) INTO total
+    FROM Komposisi_Energi
+    WHERE id_negara = p_id_negara AND tahun = p_tahun;
+    
+    CALL update_energi(p_id_negara, p_tahun, total, NULL, NULL);
+END
+;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `delete_co2` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8mb4 */ ;
+/*!50003 SET character_set_results = utf8mb4 */ ;
+/*!50003 SET collation_connection  = utf8mb4_uca1400_ai_ci */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `delete_co2`(
+    IN p_id_negara SMALLINT,
+    IN p_tahun SMALLINT
+)
+BEGIN
+    DECLARE old_rank SMALLINT;
+
+    
+    SELECT rank_co2 INTO old_rank
+    FROM Indikator_CO2
+    WHERE id_negara = p_id_negara AND tahun = p_tahun;
+
+    IF old_rank IS NOT NULL THEN
+
+        
+        DELETE FROM Indikator_CO2 
+        WHERE id_negara = p_id_negara AND tahun = p_tahun;
+
+        
+        UPDATE Indikator_CO2
+        SET rank_co2 = rank_co2 - 1
+        WHERE tahun = p_tahun AND rank_co2 > old_rank
+        ORDER BY rank_co2 ASC;
+    END IF;
+END
+;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `delete_energi` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8mb4 */ ;
+/*!50003 SET character_set_results = utf8mb4 */ ;
+/*!50003 SET collation_connection  = utf8mb4_uca1400_ai_ci */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `delete_energi`(
+    IN p_id_negara SMALLINT,
+    IN p_tahun SMALLINT
+)
+BEGIN
+    DECLARE old_rank SMALLINT;
+
+    
+    SELECT rank_energi INTO old_rank
+    FROM Indikator_Energi
+    WHERE id_negara = p_id_negara AND tahun = p_tahun;
+
+    IF old_rank IS NOT NULL THEN
+
+        
+        DELETE FROM Indikator_Energi 
+        WHERE id_negara = p_id_negara AND tahun = p_tahun;
+
+        
+        UPDATE Indikator_Energi
+        SET rank_energi = rank_energi - 1
+        WHERE tahun = p_tahun AND rank_energi > old_rank
+        ORDER BY rank_energi ASC;
+    END IF;
+END
+;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `delete_gdp` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8mb4 */ ;
+/*!50003 SET character_set_results = utf8mb4 */ ;
+/*!50003 SET collation_connection  = utf8mb4_uca1400_ai_ci */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `delete_gdp`(
+    IN p_id_negara SMALLINT,
+    IN p_tahun SMALLINT
+)
+BEGIN
+    DECLARE old_rank SMALLINT;
+
+    
+    SELECT rank_gdp INTO old_rank
+    FROM Indikator_GDP
+    WHERE id_negara = p_id_negara AND tahun = p_tahun;
+
+    IF old_rank IS NOT NULL THEN
+        
+        
+        DELETE FROM Indikator_GDP 
+        WHERE id_negara = p_id_negara AND tahun = p_tahun;
+
+        
+        UPDATE Indikator_GDP
+        SET rank_gdp = rank_gdp - 1
+        WHERE tahun = p_tahun AND rank_gdp > old_rank
+        ORDER BY rank_gdp ASC;
+    END IF;
+END
+;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `delete_populasi` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8mb4 */ ;
+/*!50003 SET character_set_results = utf8mb4 */ ;
+/*!50003 SET collation_connection  = utf8mb4_uca1400_ai_ci */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `delete_populasi`(
+    IN p_id_negara SMALLINT,
+    IN p_tahun SMALLINT
+)
+BEGIN
+    DECLARE old_rank SMALLINT;
+
+    
+    SELECT rank_populasi INTO old_rank
+    FROM Indikator_Populasi
+    WHERE id_negara = p_id_negara AND tahun = p_tahun;
+
+    IF old_rank IS NOT NULL THEN
+
+        
+        DELETE FROM Indikator_Populasi 
+        WHERE id_negara = p_id_negara AND tahun = p_tahun;
+
+        
+        UPDATE Indikator_Populasi
+        SET rank_populasi = rank_populasi - 1
+        WHERE tahun = p_tahun AND rank_populasi > old_rank
+        ORDER BY rank_populasi ASC;
+    END IF;
+END
+;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `insert_co2` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8mb4 */ ;
+/*!50003 SET character_set_results = utf8mb4 */ ;
+/*!50003 SET collation_connection  = utf8mb4_uca1400_ai_ci */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `insert_co2`(
+    IN p_id_negara SMALLINT,
+    IN p_tahun SMALLINT,
+    IN p_emisi_co2 BIGINT,
+    IN p_persen_perubahan DECIMAL(5, 2),
+    IN p_co2_per_capita DECIMAL(5, 2),
+    IN p_persen_dunia DECIMAL(5, 2)
+)
+BEGIN
+    DECLARE new_rank SMALLINT;
+
+    
+    SELECT COUNT(*) + 1 INTO new_rank
+    FROM Indikator_CO2
+    WHERE tahun = p_tahun AND emisi_co2 > p_emisi_co2;
+
+    
+    UPDATE Indikator_CO2
+    SET rank_co2 = rank_co2 + 1
+    WHERE tahun = p_tahun AND rank_co2 >= new_rank
+    ORDER BY rank_co2 DESC;
+
+    
+    INSERT INTO Indikator_CO2 (
+        id_negara, tahun, emisi_co2, persentase_perubahan_setahun,
+        emisi_co2_per_capita, persentase_emisi_co2_dunia, rank_co2
+    ) VALUES (
+        p_id_negara, p_tahun, p_emisi_co2, p_persen_perubahan,
+        p_co2_per_capita, p_persen_dunia, new_rank
+    );
+END
+;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `insert_energi` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8mb4 */ ;
+/*!50003 SET character_set_results = utf8mb4 */ ;
+/*!50003 SET collation_connection  = utf8mb4_uca1400_ai_ci */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `insert_energi`(
+    IN p_id_negara SMALLINT,
+    IN p_tahun SMALLINT,
+    IN p_konsumsi_total BIGINT,
+    IN p_persen_dunia DECIMAL(5, 2),
+    IN p_konsumsi_per_capita INT
+)
+BEGIN
+    DECLARE new_rank SMALLINT;
+
+    
+    SELECT COUNT(*) + 1 INTO new_rank
+    FROM Indikator_Energi
+    WHERE tahun = p_tahun AND konsumsi_energi_total > p_konsumsi_total;
+
+    
+    UPDATE Indikator_Energi
+    SET rank_energi = rank_energi + 1
+    WHERE tahun = p_tahun AND rank_energi >= new_rank
+    ORDER BY rank_energi DESC;
+
+    
+    INSERT INTO Indikator_Energi (
+        id_negara, tahun, konsumsi_energi_total, persentase_dunia,
+        konsumsi_per_capita, rank_energi
+    ) VALUES (
+        p_id_negara, p_tahun, p_konsumsi_total, p_persen_dunia,
+        p_konsumsi_per_capita, new_rank
+    );
+END
+;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `insert_gdp` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8mb4 */ ;
+/*!50003 SET character_set_results = utf8mb4 */ ;
+/*!50003 SET collation_connection  = utf8mb4_uca1400_ai_ci */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `insert_gdp`(
+    IN p_id_negara SMALLINT,
+    IN p_tahun SMALLINT,
+    IN p_nilai_gdp BIGINT,
+    IN p_pertumbuhan DECIMAL(5,2),
+    IN p_per_capita INT,
+    IN p_persen_dunia DECIMAL(5,2)
+)
+BEGIN
+    DECLARE new_rank SMALLINT;
+
+    
+    SELECT COUNT(*) + 1 INTO new_rank
+    FROM Indikator_GDP
+    WHERE tahun = p_tahun AND nilai_gdp > p_nilai_gdp;
+
+    
+    UPDATE Indikator_GDP
+    SET rank_gdp = rank_gdp + 1
+    WHERE tahun = p_tahun AND rank_gdp >= new_rank
+    ORDER BY rank_gdp DESC;
+
+    
+    INSERT INTO Indikator_GDP (
+        id_negara, tahun, nilai_gdp, persentase_pertumbuhan_gdp, 
+        gdp_per_capita, persentase_gdp_dunia, rank_gdp
+    ) VALUES (
+        p_id_negara, p_tahun, p_nilai_gdp, p_pertumbuhan, 
+        p_per_capita, p_persen_dunia, new_rank
+    );
+END
+;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `insert_populasi` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8mb4 */ ;
+/*!50003 SET character_set_results = utf8mb4 */ ;
+/*!50003 SET collation_connection  = utf8mb4_uca1400_ai_ci */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `insert_populasi`(
+    IN p_id_negara SMALLINT,
+    IN p_tahun SMALLINT,
+    IN p_jumlah_populasi BIGINT,
+    IN p_persen_perubahan DECIMAL(5, 2),
+    IN p_perubahan_tahunan INT,
+    IN p_migrasi_bersih INT,
+    IN p_usia_median DECIMAL(4, 2),
+    IN p_tingkat_fertilitas DECIMAL(4, 2),
+    IN p_kepadatan SMALLINT,
+    IN p_persen_urban DECIMAL(5, 2),
+    IN p_jumlah_urban INT,
+    IN p_persen_dunia DECIMAL(5, 2)
+)
+BEGIN
+    DECLARE new_rank SMALLINT;
+
+    
+    SELECT COUNT(*) + 1 INTO new_rank
+    FROM Indikator_Populasi
+    WHERE tahun = p_tahun AND jumlah_populasi > p_jumlah_populasi;
+
+    
+    UPDATE Indikator_Populasi
+    SET rank_populasi = rank_populasi + 1
+    WHERE tahun = p_tahun AND rank_populasi >= new_rank
+    ORDER BY rank_populasi DESC;
+
+    
+    INSERT INTO Indikator_Populasi (
+        id_negara, tahun, jumlah_populasi, persentase_perubahan_tahunan,
+        perubahan_tahunan, migrasi_bersih, usia_median, tingkat_fertilitas,
+        kepadatan_penduduk, persentase_penduduk_urban, jumlah_penduduk_urban,
+        persentase_populasi_dunia, rank_populasi
+    ) VALUES (
+        p_id_negara, p_tahun, p_jumlah_populasi, p_persen_perubahan,
+        p_perubahan_tahunan, p_migrasi_bersih, p_usia_median, p_tingkat_fertilitas,
+        p_kepadatan, p_persen_urban, p_jumlah_urban,
+        p_persen_dunia, new_rank
+    );
+END
+;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `update_co2` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8mb4 */ ;
+/*!50003 SET character_set_results = utf8mb4 */ ;
+/*!50003 SET collation_connection  = utf8mb4_uca1400_ai_ci */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `update_co2`(
+    IN p_id_negara SMALLINT,
+    IN p_tahun SMALLINT,
+    IN p_emisi_co2 BIGINT,
+    IN p_persen_perubahan DECIMAL(5, 2),
+    IN p_co2_per_capita DECIMAL(5, 2),
+    IN p_persen_dunia DECIMAL(5, 2)
+)
+BEGIN
+    
+    DECLARE emisi BIGINT;
+    DECLARE persen_perubahan DECIMAL(5, 2);
+    DECLARE co2_per_capita DECIMAL(5, 2);
+    DECLARE persen_dunia DECIMAL(5, 2);
+
+    SELECT emisi_co2, persentase_perubahan_setahun, emisi_co2_per_capita, persentase_emisi_co2_dunia
+    INTO emisi, persen_perubahan, co2_per_capita, persen_dunia
+    FROM Indikator_CO2
+    WHERE id_negara = p_id_negara AND tahun = p_tahun;
+
+    IF emisi IS NOT NULL THEN
+        
+        
+        SET emisi = COALESCE(p_emisi_co2, emisi);
+        SET persen_perubahan = COALESCE(p_persen_perubahan, persen_perubahan);
+        SET co2_per_capita = COALESCE(p_co2_per_capita, co2_per_capita);
+        SET persen_dunia = COALESCE(p_persen_dunia, persen_dunia);
+
+        
+        CALL delete_co2(p_id_negara, p_tahun);
+
+        
+        CALL insert_co2(p_id_negara, p_tahun, emisi, persen_perubahan, co2_per_capita, persen_dunia);
+    ELSE
+        IF p_emisi_co2 IS NOT NULL THEN
+            CALL insert_co2(p_id_negara, p_tahun, p_emisi_co2, p_persen_perubahan, p_co2_per_capita, p_persen_dunia);
+        END IF;
+    END IF;
+END
+;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `update_energi` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8mb4 */ ;
+/*!50003 SET character_set_results = utf8mb4 */ ;
+/*!50003 SET collation_connection  = utf8mb4_uca1400_ai_ci */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `update_energi`(
+    IN p_id_negara SMALLINT,
+    IN p_tahun SMALLINT,
+    IN p_konsumsi_total BIGINT,
+    IN p_persen_dunia DECIMAL(5, 2),
+    IN p_konsumsi_per_capita INT
+)
+BEGIN
+    DECLARE konsumsi BIGINT;
+    DECLARE persen_dunia DECIMAL(5, 2);
+    DECLARE per_capita INT;
+
+    
+    SELECT konsumsi_energi_total, persentase_dunia, konsumsi_per_capita
+    INTO konsumsi, persen_dunia, per_capita
+    FROM Indikator_Energi
+    WHERE id_negara = p_id_negara AND tahun = p_tahun;
+
+    IF konsumsi IS NOT NULL THEN
+
+        
+        SET konsumsi = COALESCE(p_konsumsi_total, konsumsi);
+        SET persen_dunia = COALESCE(p_persen_dunia, persen_dunia);
+        SET per_capita = COALESCE(p_konsumsi_per_capita, per_capita);
+
+        
+        CALL delete_energi(p_id_negara, p_tahun);
+
+        
+        CALL insert_energi(p_id_negara, p_tahun, konsumsi, persen_dunia, per_capita);
+    ELSE
+        IF p_konsumsi_total IS NOT NULL THEN
+            CALL insert_energi(p_id_negara, p_tahun, p_konsumsi_total, p_persen_dunia, p_konsumsi_per_capita);
+        END IF;
+    END IF;
+END
+;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `update_gdp` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8mb4 */ ;
+/*!50003 SET character_set_results = utf8mb4 */ ;
+/*!50003 SET collation_connection  = utf8mb4_uca1400_ai_ci */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `update_gdp`(
+    IN p_id_negara SMALLINT,
+    IN p_tahun SMALLINT,
+    IN p_nilai_gdp BIGINT,
+    IN p_pertumbuhan DECIMAL(5,2),
+    IN p_per_capita INT,
+    IN p_persen_dunia DECIMAL(5,2)
+)
+BEGIN
+    DECLARE gdp BIGINT;
+    DECLARE pertumbuhan DECIMAL(5,2);
+    DECLARE per_capita INT;
+    DECLARE persen_dunia DECIMAL(5,2);
+    
+    
+    SELECT nilai_gdp, persentase_pertumbuhan_gdp, gdp_per_capita, persentase_gdp_dunia
+    INTO gdp, pertumbuhan, per_capita, persen_dunia
+    FROM Indikator_GDP
+    WHERE id_negara = p_id_negara AND tahun = p_tahun;
+   
+    IF gdp IS NOT NULL THEN
+        
+        
+        SET gdp = COALESCE(p_nilai_gdp, gdp);
+        SET pertumbuhan = COALESCE(p_pertumbuhan, pertumbuhan);
+        SET per_capita = COALESCE(p_per_capita, per_capita);
+        SET persen_dunia = COALESCE(p_persen_dunia, persen_dunia);
+        
+        
+        CALL delete_gdp(p_id_negara, p_tahun);
+        
+        
+        CALL insert_gdp(p_id_negara, p_tahun, gdp, pertumbuhan, per_capita, persen_dunia);
+    ELSE
+        IF p_nilai_gdp IS NOT NULL THEN
+            CALL insert_gdp(p_id_negara, p_tahun, p_nilai_gdp, p_pertumbuhan, p_per_capita, p_persen_dunia);
+        END IF;
+    END IF;
+END
+;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `update_populasi` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8mb4 */ ;
+/*!50003 SET character_set_results = utf8mb4 */ ;
+/*!50003 SET collation_connection  = utf8mb4_uca1400_ai_ci */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `update_populasi`(
+    IN p_id_negara SMALLINT,
+    IN p_tahun SMALLINT,
+    IN p_jumlah_populasi BIGINT,
+    IN p_persen_perubahan DECIMAL(5, 2),
+    IN p_perubahan_tahunan INT,
+    IN p_migrasi_bersih INT,
+    IN p_usia_median DECIMAL(4, 2),
+    IN p_tingkat_fertilitas DECIMAL(4, 2),
+    IN p_kepadatan SMALLINT,
+    IN p_persen_urban DECIMAL(5, 2),
+    IN p_jumlah_urban INT,
+    IN p_persen_dunia DECIMAL(5, 2)
+)
+BEGIN
+    DECLARE jumlah_p BIGINT;
+    DECLARE persen_perubahan DECIMAL(5, 2);
+    DECLARE perubahan_t INT;
+    DECLARE migrasi_b INT;
+    DECLARE usia_m DECIMAL(4, 2);
+    DECLARE tingkat_f DECIMAL(4, 2);
+    DECLARE kepadatan SMALLINT;
+    DECLARE persen_urban DECIMAL(5, 2);
+    DECLARE jumlah_urban INT;
+    DECLARE persen_dunia DECIMAL(5, 2);
+    
+    
+    SELECT jumlah_populasi, persentase_perubahan_tahunan, perubahan_tahunan,
+           migrasi_bersih, usia_median, tingkat_fertilitas, kepadatan_penduduk,
+           persentase_penduduk_urban, jumlah_penduduk_urban, persentase_populasi_dunia
+    INTO jumlah_p, persen_perubahan, perubahan_t,
+         migrasi_b, usia_m, tingkat_f, kepadatan,
+         persen_urban, jumlah_urban, persen_dunia
+    FROM Indikator_Populasi
+    WHERE id_negara = p_id_negara AND tahun = p_tahun;
+   
+    IF jumlah_p IS NOT NULL THEN
+        
+        
+        SET jumlah_p = COALESCE(p_jumlah_populasi, jumlah_p);
+        SET persen_perubahan = COALESCE(p_persen_perubahan, persen_perubahan);
+        SET perubahan_t = COALESCE(p_perubahan_tahunan, perubahan_t);
+        SET migrasi_b = COALESCE(p_migrasi_bersih, migrasi_b);
+        SET usia_m = COALESCE(p_usia_median, usia_m);
+        SET tingkat_f = COALESCE(p_tingkat_fertilitas, tingkat_f);
+        SET kepadatan = COALESCE(p_kepadatan, kepadatan);
+        SET persen_urban = COALESCE(p_persen_urban, persen_urban);
+        SET jumlah_urban = COALESCE(p_jumlah_urban, jumlah_urban);
+        SET persen_dunia = COALESCE(p_persen_dunia, persen_dunia);
+
+        
+        CALL delete_populasi(p_id_negara, p_tahun);
+
+        
+        CALL insert_populasi(p_id_negara, p_tahun, jumlah_p, persen_perubahan, perubahan_t, migrasi_b, usia_m,
+             tingkat_f, kepadatan, persen_urban, jumlah_urban, persen_dunia);
+    ELSE
+        IF p_jumlah_populasi IS NOT NULL THEN
+            CALL insert_populasi(p_id_negara, p_tahun, p_jumlah_populasi, p_persen_perubahan, p_perubahan_tahunan,
+                p_migrasi_bersih, p_usia_median, p_tingkat_fertilitas, p_kepadatan, p_persen_urban,
+                p_jumlah_urban, p_persen_dunia);
+        END IF;
+    END IF;
+END
+;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -2296,4 +2926,4 @@ SET AUTOCOMMIT=@OLD_AUTOCOMMIT;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*M!100616 SET NOTE_VERBOSITY=@OLD_NOTE_VERBOSITY */;
 
--- Dump completed on 2026-07-19 15:33:12
+-- Dump completed on 2026-07-21 15:36:40

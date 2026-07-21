@@ -6,7 +6,7 @@ conn = mysql.connector.connect(
     port=3307,
     user="Basdat",
     password="Basdat",
-    database="InitIndikator"
+    database="Data_Storing"
 )
 cur = conn.cursor()
 
@@ -93,7 +93,7 @@ for c in co2:
         continue
     cur.execute("""
         INSERT INTO Indikator_CO2 
-        (id_negara, tahun, rank_co2, emisi_co2, persentase_perubahan_setahun, emisi_co2_per_kapita, persentase_emisi_co2_dunia)
+        (id_negara, tahun, rank_co2, emisi_co2, persentase_perubahan_setahun, emisi_co2_per_capita, persentase_emisi_co2_dunia)
         VALUES (%s, %s, %s, %s, %s, %s, %s)
     """, (id_country, c['tahun'], c['rank'], c['co2_emission_ton'], c['one_year_change_pct'], c['co2_per_capita_ton'], c['share_of_world_co2_pct']))
 print(f"Indikator CO2: {len(co2) - skips} baris berhasil, {skips} baris dilewati")
