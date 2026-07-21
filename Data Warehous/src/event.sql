@@ -37,7 +37,7 @@ BEGIN
     FROM Data_Storing.Jenis_Energi;
 
     INSERT INTO Indikator_Negara (id_negara, tahun, jenis_kategori_ekonomi, nilai_gdp, gdp_per_capita, persentase_gdp_dunia, rank_gdp,
-    jumlah_populasi, kepadatan_penduduk, persentase_penduduk_urban, usia_median, tingkat_fertilitas, rank_populasi, emisi_co2, emisi_co2_per_kapita, rank_co2,
+    jumlah_populasi, kepadatan_penduduk, persentase_penduduk_urban, usia_median, tingkat_fertilitas, rank_populasi, emisi_co2, emisi_co2_per_capita, rank_co2,
     konsumsi_energi_total, konsumsi_energi_per_capita, rank_energi)
     SELECT g.id_negara, g.tahun, 
     CASE 
@@ -47,7 +47,7 @@ BEGIN
         ELSE 'High income'
     END AS jenis_kategori_ekonomi,
     g.nilai_gdp, g.gdp_per_capita, g.persentase_gdp_dunia, g.rank_gdp,
-    p.jumlah_populasi, p.kepadatan_penduduk, p.persentase_penduduk_urban, p.usia_median, p.tingkat_fertilitas, p.rank_populasi, c.emisi_co2, c.emisi_co2_per_kapita, c.rank_co2,
+    p.jumlah_populasi, p.kepadatan_penduduk, p.persentase_penduduk_urban, p.usia_median, p.tingkat_fertilitas, p.rank_populasi, c.emisi_co2, c.emisi_co2_per_capita, c.rank_co2,
     e.konsumsi_energi_total, e.konsumsi_per_capita, e.rank_energi
     FROM Data_Storing.Indikator_GDP g
     LEFT JOIN Data_Storing.Indikator_Populasi p ON g.id_negara = p.id_negara AND g.tahun = p.tahun
@@ -61,9 +61,9 @@ BEGIN
     JOIN Data_Storing.Jenis_Energi j ON k.id_jenis = j.id_jenis;
 
     INSERT INTO Indikator_Benua (nama_benua, tahun, jumlah_negara_gdp, total_gdp, gdp_per_capita,
-    jumlah_negara_populasi, total_populasi, jumlah_negara_co2, total_emisi_co2, co2_per_kapita)
+    jumlah_negara_populasi, total_populasi, jumlah_negara_co2, total_emisi_co2, co2_per_capita)
     SELECT n.nama_benua, g.tahun, COUNT(DISTINCT g.id_negara), SUM(g.nilai_gdp), AVG(g.gdp_per_capita),
-        COUNT(DISTINCT p.id_negara), SUM(p.jumlah_populasi), COUNT(DISTINCT c.id_negara), SUM(c.emisi_co2), AVG(c.emisi_co2_per_kapita)
+        COUNT(DISTINCT p.id_negara), SUM(p.jumlah_populasi), COUNT(DISTINCT c.id_negara), SUM(c.emisi_co2), AVG(c.emisi_co2_per_capita)
     FROM Data_Storing.Indikator_GDP g
     JOIN Negara n ON g.id_negara = n.id_negara
     LEFT JOIN Data_Storing.Indikator_Populasi p ON g.id_negara = p.id_negara AND g.tahun = p.tahun

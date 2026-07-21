@@ -43,7 +43,7 @@ CREATE TABLE Indikator_Negara (
     tingkat_fertilitas DECIMAL(4,2),
     rank_populasi SMALLINT,
     emisi_co2 BIGINT,
-    emisi_co2_per_kapita DECIMAL(5,2),
+    emisi_co2_per_capita DECIMAL(5,2),
     rank_co2 SMALLINT,
     konsumsi_energi_total BIGINT,
     konsumsi_energi_per_capita INT,
@@ -77,7 +77,7 @@ CREATE TABLE Indikator_Benua (
     total_populasi BIGINT,
     jumlah_negara_co2 INT,
     total_emisi_co2 BIGINT,
-    co2_per_kapita DECIMAL(10,4),
+    co2_per_capita DECIMAL(10,4),
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     PRIMARY KEY (nama_benua, tahun),
     FOREIGN KEY (tahun) REFERENCES Tahun(tahun)
