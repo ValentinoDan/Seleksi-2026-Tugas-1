@@ -49,6 +49,7 @@ CREATE TABLE Indikator_Negara (
     konsumsi_energi_per_capita INT,
     rank_energi SMALLINT,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     PRIMARY KEY (id_negara, tahun),
     FOREIGN KEY (id_negara) REFERENCES Negara(id_negara),
     FOREIGN KEY (tahun) REFERENCES Tahun(tahun)
@@ -61,6 +62,7 @@ CREATE TABLE Komposisi_Energi (
     jumlah_komposisi BIGINT,
     persentase_konsumsi TINYINT,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     PRIMARY KEY (id_negara, id_jenis, tahun),
     FOREIGN KEY (id_negara) REFERENCES Negara(id_negara),
     FOREIGN KEY (id_jenis) REFERENCES Jenis_Energi(id_jenis),
@@ -79,6 +81,7 @@ CREATE TABLE Indikator_Benua (
     total_emisi_co2 BIGINT,
     co2_per_capita DECIMAL(10,4),
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     PRIMARY KEY (nama_benua, tahun),
     FOREIGN KEY (tahun) REFERENCES Tahun(tahun)
 );
