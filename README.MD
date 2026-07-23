@@ -422,6 +422,7 @@ DELIMITER ;
 ## Penggunaan AI
 1. **Bagian yang Dibantu AI:** 
    - Membantu proses *scraping* data
+   - Membantu proses *insert* data
    - Membantu pembuatan *procedure* dan *event*
    - Membantu validasi sintaks MariaDB
    - Membantu membuat format `README.md`
