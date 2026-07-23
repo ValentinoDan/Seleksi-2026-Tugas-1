@@ -16,21 +16,21 @@
 
 ## Cara Menggunakan *Scraper* dan Hasil Output-nya
 1. Install requirement berikut
-  ```bash
+```bash
   pip install requests beautifulsoup4 mysql-connector-python
-  ```
+```
 
 2. Jalankan seluruh skrip *scraper*:
-  ```bash
+```bash
   python "Data Scraping/src/scrap_co2.py"
   python "Data Scraping/src/scrap_energy.py"
   python "Data Scraping/src/scrap_gdp.py"
   python "Data Scraping/src/scrap_population.py"
   python "Data Scraping/src/scrap_region.py"
-  ```
+```
 3. Hasilnya akan tersimpan dalam folder `Data Scraping/data/` dalam format JSON
 4. Sebelum melakukan *insert data*, jalankan Docker dan sesuaikan konfigurasi `Dockerfile` berikut
-  ```bash
+```bash
   FROM mariadb:latest
 
   ENV MYSQL_DATABASE=Data_Storing
@@ -45,24 +45,23 @@
   # COPY ["Data Warehous/src/event.sql", "/docker-entrypoint-initdb.d/5-Event.sql"]
 
   EXPOSE 3306
-  ```
+```
   Selanjutnya, jalankan
-  ```bash
+```bash
   docker compose up -d --build
-  ```
+```
 
 5. Jalankan skrip *insert data*:
-  ```bash
+```bash
   python "Data Storing\src\insert_data.py"
-  ```
+```
 6. Data akan berhasil dimasukkan ke dalam *database* `Data_Storing`
 
-> **Catatan:** Seluruh proses *scraping* dan *insert* di atas sebenarnya tidak wajib dilakukan karena *database dump* sudah tersedia pada `Data Storing/export/IndikatorNegara.sql`.
+> **Notes:** Seluruh proses *scraping* dan *insert* di atas sebenarnya tidak wajib dilakukan karena hasil *dump database* sudah tersedia pada `Data Storing/export/IndikatorNegara.sql`.
 
 ---
 
 ## Penjelasan Struktur dari File JSON
-
 
 ### `co2.json`
 
@@ -238,9 +237,7 @@ Hubungan utama pada ERD:
 - Satu **Jenis Energi** dapat memiliki beberapa **Komposisi Energi** untuk berbagai negara dan tahun yang berbeda (*one-to-many*)
 - Satu **Tahun** dapat memiliki beragam **Indikator** dari berbagai negara (*one-to-many*)
 
-<p align="center">
-  <img src="Data Storing\design\ERD_Diagram.png" alt="Entity Relationship Diagram" width="900">
-</p>
+![Entity Relationship Diagram](Data%20Storing/design/ERD_Diagram.png)
 
 ### Diagram Relasional RDBMS
 
@@ -249,6 +246,151 @@ Hubungan utama pada ERD:
 - Tabel **Komposisi_Energi** menggunakan **composite primary key (`id_jenis`, `id_negara`, `tahun`)** karena setiap negara memiliki beberapa jenis energi pada tahun yang sama
 - Tabel **Benua**, **Kategori_Ekonomi**, **Jenis_Energi**, dan **Tahun** berfungsi sebagai tabel referensi
 
-<p align="center">
-  <img src="Data Storing\design\Model_Relasional_dbdiagram.png" alt="Diagram Relasional RDBMS" width="1000">
-</p>
+![Diagram Relasional RDBMS](Data%20Storing/design/Model_Relasional_dbdiagram.png)
+
+---
+
+## Proses Translasi ERD menjadi Diagram Relasional
+- Relasi **Memiliki** antara Negara dan Indikator diubah dengan menambahkan atribut `id_negara` sebagai *foreign key* sekaligus bagian dari *composite primary key* pada seluruh tabel indikator
+- Relasi **Termasuk** antara Benua dan Negara diubah dengan menambahkan atribut `id_benua` sebagai *foreign key* pada tabel Negara
+- Relasi **Tergolong** antara Kategori_Ekonomi dan Negara diubah dengan menambahkan atribut `id_kategori_ekonomi` sebagai *foreign key* pada tabel `Negara`
+- Relasi **Terjadi_saat** antara Tahun dan Indikator diubah dengan menambahkan atribut `tahun` sebagai *foreign key* sekaligus bagian dari *composite primary key* pada seluruh tabel indikator
+- Relasi **Terdiri_dari** antara Jenis_Energi dan Komposisi_Energi dengan menambahkan atribut `id_jenis` sebagai *foreign key* sekaligus bagian dari *composite primary key* pada tabel `Komposisi_Energi`
+
+---
+
+## Screenshot Query
+1. Top 10 Negara dengan GDP tertinggi tahun 2024
+
+   ![Top 10 Negara GDP 2024](Data%20Storing/screenshot/Top_10_GDP.png)
+
+2. Negara di Benua Asia dengan populasi > 100 juta dimulai dari negara dengan populasi terbesar
+
+   ![Negara Asia Populasi](Data%20Storing/screenshot/Negara_Asia.png)
+
+3. Indikator lengkap untuk Negara Indonesia
+
+   ![Indikator Indonesia](Data%20Storing/screenshot/Indonesia.png)
+
+4. Mendapatkan data negara dengan nilai GDP yang cukup tinggi, tapi tidak masuk top 30 negara penyumbang emisi CO2 tertinggi
+
+   ![GDP vs CO2](Data%20Storing/screenshot/GDP_CO2.png)
+
+5. Mendapatkan data negara yang mengalami resesif (*gdp growth negatif*) dan population growth yang menyusut juga secara bersamaan
+
+   ![Negara Resesif](Data%20Storing/screenshot/resesif.png)
+
+> **Notes**: Lebih lengkapnya dapat dilihat pada dokumen [Query_Data Storing.pdf](Data%20Storing/Query_Data%20Storing.pdf)
+
+---
+
+## Bonus
+### Data Warehouse
+
+![ERD Diagram Data Warehouse](Data%20Warehous/design/ERD_Diagram_Data_Warehouse.png)
+
+Diagram *Data Warehouse* dirancang menggunakan struktur **Galaxy Schema**
+
+**Dimension Table**
+
+- `Negara` menyimpan informasi terkait data negara
+- `Tahun` menyimpan informasi yang berkaitan dengan waktu (tahun & dekade) 
+- `Jenis_Energi` menyimpan klasifikasi sumber energi
+
+**Fact Table**
+
+- `Indikator_Negara`, berisi indikator GDP, populasi, CO₂, dan konsumsi energi untuk setiap negara pada suatu tahun.
+- `Komposisi_Energi`, berisi komposisi konsumsi energi berdasarkan jenis energi untuk setiap negara.
+- `Indikator_Benua`, berisi hasil agregasi indikator setiap benua pada suatu tahun.
+
+### Scheduling
+Scheduling ini dibuat untuk memastikan data yang terdapat di `Data_Warehouse` mengikuti update terbaru dari `Data_Storing`. Pengecekan dilakukan tiap minggu mulai dari 1 Januari 2027.
+
+```sql
+USE Data_Warehouse;
+
+DROP EVENT IF EXISTS sync_data;
+
+DELIMITER //
+
+CREATE EVENT sync_data
+ON SCHEDULE EVERY 1 WEEK
+STARTS '2027-01-01 01:00:00'
+ON COMPLETION PRESERVE
+DO
+BEGIN
+    -- conton untuk tahun
+    INSERT INTO Tahun (tahun, dekade)
+    SELECT tahun, CONCAT(FLOOR(tahun/10)*10, 's')
+    FROM Data_Storing.Tahun
+    ON DUPLICATE KEY UPDATE
+    dekade = VALUES(dekade);
+    ....
+END //
+
+DELIMITER ;
+```
+
+**Contoh** (*kolom updated_at berubah*)
+
+![Scheduling (after)](Data%20Warehous/screenshot/scheduling.png)
+
+### Query Optimization
+1. Mengubah penggunaan fungsi dengan menggunakan kondisi `WHERE`
+
+**Before**
+
+![Query 1 (before)](Query%20Optimasi/capita_before.png)
+
+**After**
+
+![Query 1 (after)](Query%20Optimasi/capita_after.png)
+
+2. Mengganti struktur *subquery* dengan metode `JOIN`
+
+**Before**
+
+![Query 2 (before)](Query%20Optimasi/asia_before.png)
+
+**After**
+
+![Query 2 (after)](Query%20Optimasi/asia_after.png.png)
+
+3. Membuat *indexing* 
+
+**Before**
+
+![Query 3 (before)](Query%20Optimasi/komposisi_before2.png)
+
+**After**
+
+![Query 3 (after)](Query%20Optimasi/komposisi_after3.png)
+
+> **Notes**: Lebih lengkapnya dapat dilihat pada dokumen [Query_Data Warehouse.pdf](Data%20Warehous/Query_Data%20Warehouse.pdf)
+
+---
+
+## Referensi
+* **Library yang Digunakan**: `requests`, `beautifulsoup4`, `mysql-connector-python`
+* **Sumber Data**: Worldometer, https://www.worldometers.info/
+* **Referensi Youtube**:
+  * Panduan *Web Scraping*: [Scraping Data from a Real Website | Web Scraping in Python](https://youtu.be/8dTpNajxaH0?si=NFkVwQULUhICS37Q)
+  * Panduan Konfigurasi *Scheduling*: [SQL Event Scheduling: Automate Database Tasks with Examples](https://youtu.be/bz0vTH1p4_I?si=G7gjKNUzdYQIjzdX)
+  * Panduan Optimasi Basis Data: [SQL indexing best practices | How to make your database FASTER!](https://youtu.be/BIlFTFrEFOI?si=1juiAhCQPRx_CQZp)
+
+---
+
+## Penggunaan AI
+1. **Bagian yang Dibantu AI:** 
+   - Membantu proses *scraping* data
+   - Membantu pembuatan *procedure* dan *event*
+   - Membantu validasi sintaks MariaDB
+   - Membantu membuat format `README.md`
+2. **Bagian yang Dikerjakan Sendiri:** 
+   - Perancangan ERD dan model relasional
+   - Perancangan Data Warehouse
+   - Setup Docker
+   - Implementasi *query*
+   - Membuat laporan untuk *query*
+3. **Refleksi Penggunaan AI:** 
+   - AI membantu saya memahami materi baru dengan lebih cepat dan langsung mempraktikkannya. Selain itu, AI juga mempercepat pengerjaan tugas, terutama dalam pembuatan tabel SQL dari model relasional serta validasi sintaks.
