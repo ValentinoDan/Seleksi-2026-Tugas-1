@@ -44,7 +44,7 @@ docker exec -it Basdat mariadb -u Basdat -pBasdat Data_Warehouse
 
 4. Melakukan Dump SQL
 ```bash
-docker exec Basdat mariadb-dump -u Basdat -pBasdat --add-drop-table --routines --triggers [Database] > [Path direktori]
+docker exec Basdat mariadb-dump -u Basdat -pBasdat --add-drop-table --routines --triggers --events [Database] > [Path direktori]
 ```
 
 ---
@@ -92,7 +92,7 @@ docker exec Basdat mariadb-dump -u Basdat -pBasdat --add-drop-table --routines -
 ```
 6. Data akan berhasil dimasukkan ke dalam *database* `Data_Storing`
 
-> **Notes:** Seluruh proses *scraping* dan *insert* di atas sebenarnya tidak wajib dilakukan karena hasil *dump database* sudah tersedia pada `Data Storing/export/IndikatorNegara.sql`.
+> **Notes:** Seluruh proses *scraping* dan *insert* di atas sebenarnya tidak wajib dilakukan karena hasil *dump database* sudah tersedia pada `Data Storing/export/IndikatorNegara.sql`
 
 ---
 
