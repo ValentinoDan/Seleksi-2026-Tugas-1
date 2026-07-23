@@ -14,6 +14,41 @@
 
 ---
 
+## Database
+1. **`Data_Storing`**: Berisi tabel hasil *scraping*
+2. **`Data_Warehouse`**: Berisi tabel berstruktur *Galaxy Schema*
+
+---
+
+## Cara Menggunakan Docker
+1. Install Docker
+2. Jalankan *container* Docker
+```bash
+docker compose up -d --build
+```
+3. Masuk ke dalam MariaDB melalui container
+* *General*
+```bash
+docker exec -it Basdat mariadb -u Basdat -pBasdat
+```
+
+* Langsung masuk ke database `Data_Storing`
+```bash
+docker exec -it Basdat mariadb -u Basdat -pBasdat Data_Storing
+```
+
+* Langsung masuk ke database `Data_Warehouse`
+```bash
+docker exec -it Basdat mariadb -u Basdat -pBasdat Data_Warehouse
+```
+
+4. Melakukan Dump SQL
+```bash
+docker exec Basdat mariadb-dump -u Basdat -pBasdat --add-drop-table --routines --triggers [Database] > [Path direktori]
+```
+
+---
+
 ## Cara Menggunakan *Scraper* dan Hasil Output-nya
 1. Install requirement berikut
 ```bash
