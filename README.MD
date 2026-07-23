@@ -229,7 +229,7 @@ Contoh:
 - **Jenis Energi** mendefinisikan sumber energi (Oil, Gas, Coal, Fossil, dan Renewable)
 - **Komposisi Energi** menyimpan jumlah konsumsi serta persentase setiap jenis energi pada suatu negara dan tahun
 
-Hubungan utama pada ERD:
+Hubungan pada ERD:
 
 - Satu **Benua** memiliki banyak **Negara** (*one-to-many*)
 - Satu **Kategori Ekonomi** memiliki banyak **Negara** (*one-to-many*)
@@ -377,7 +377,11 @@ DELIMITER ;
   * Panduan *Web Scraping*: [Scraping Data from a Real Website | Web Scraping in Python](https://youtu.be/8dTpNajxaH0?si=NFkVwQULUhICS37Q)
   * Panduan Konfigurasi *Scheduling*: [SQL Event Scheduling: Automate Database Tasks with Examples](https://youtu.be/bz0vTH1p4_I?si=G7gjKNUzdYQIjzdX)
   * Panduan Optimasi Basis Data: [SQL indexing best practices | How to make your database FASTER!](https://youtu.be/BIlFTFrEFOI?si=1juiAhCQPRx_CQZp)
-
+* **Link Diagram**:
+  * *ERD Data Storing*: [ERD Data Storing](https://drive.google.com/file/d/1IjYbIomGOmojFj9bfjJ1ifym5Z4D0EQF/view?usp=sharing)
+  * *Relational Model Data Storing*: [Model Relasional Data Storing](https://dbdiagram.io/d/Model-Relasional-Indikator-Negara-6a58fbdac3a90dd98d52ca82)
+  * *ERD Data Warehouse*: [ERD Data Warehouse](https://drive.google.com/file/d/1olDtdoWLUTAiheBvtzWk-j7drnlTdi48/view?usp=sharing)
+  * *Relational Model Data Warehouse*: [Model Relasional Data Warehouse](https://dbdiagram.io/d/Model_Relasional_Data_Warehouse-6a6056eb067336e1dec99ad2)
 ---
 
 ## Penggunaan AI
