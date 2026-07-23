@@ -417,6 +417,7 @@ DELIMITER ;
   * *Relational Model Data Storing*: [Model Relasional Data Storing](https://dbdiagram.io/d/Model-Relasional-Indikator-Negara-6a58fbdac3a90dd98d52ca82)
   * *ERD Data Warehouse*: [ERD Data Warehouse](https://drive.google.com/file/d/1olDtdoWLUTAiheBvtzWk-j7drnlTdi48/view?usp=sharing)
   * *Relational Model Data Warehouse*: [Model Relasional Data Warehouse](https://dbdiagram.io/d/Model_Relasional_Data_Warehouse-6a6056eb067336e1dec99ad2)
+
 ---
 
 ## Penggunaan AI
@@ -434,3 +435,8 @@ DELIMITER ;
    - Membuat laporan untuk *query*
 3. **Refleksi Penggunaan AI:** 
    - AI membantu saya memahami materi baru dengan lebih cepat dan langsung mempraktikkannya. Selain itu, AI juga mempercepat pengerjaan tugas, terutama dalam pembuatan tabel SQL dari model relasional serta validasi sintaks.
+
+---
+
+## Data Limitation
+* Data semua indikator (GDP, Populasi, CO₂, dan Region) hanya tersedia untuk tahun 2024, sedangkan indikator energi hanya tersedia untuk tahun 2017
