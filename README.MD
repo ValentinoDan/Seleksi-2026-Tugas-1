@@ -331,7 +331,7 @@ END //
 DELIMITER ;
 ```
 
-**Contoh** (*kolom updated_at berubah*)
+**Contoh** (*kolom updated_at berubah untuk id_negara 1*)
 
 ![Scheduling (after)](Data%20Warehous/screenshot/scheduling.png)
 
@@ -346,7 +346,7 @@ DELIMITER ;
 
 ![Query 1 (after)](Query%20Optimasi/capita_after.png)
 
-2. Mengganti struktur *subquery* dengan metode `JOIN`
+2. Menghilangan penggunaan *subquery* yang tidak efisien
 
 **Before**
 
@@ -354,7 +354,7 @@ DELIMITER ;
 
 **After**
 
-![Query 2 (after)](Query%20Optimasi/asia_after.png.png)
+![Query 2 (after)](Query%20Optimasi/asia_after.png)
 
 3. Membuat *indexing* 
 
