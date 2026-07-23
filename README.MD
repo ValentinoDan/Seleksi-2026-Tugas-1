@@ -46,7 +46,16 @@ docker exec -it Basdat mariadb -u Basdat -pBasdat Data_Warehouse
 ```bash
 docker exec Basdat mariadb-dump -u Basdat -pBasdat --add-drop-table --routines --triggers --events [Database] > [Path direktori]
 ```
+5. Mematikan Kontainer Docker
+* Tanpa menghapus data
+```bash
+docker compose down
+```
 
+* Menghapus data
+```bash
+docker compose down -v
+```
 ---
 
 ## Cara Menggunakan *Scraper* dan Hasil Output-nya
